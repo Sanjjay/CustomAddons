@@ -420,14 +420,14 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
 </addon>
 
 <addon id="repository.customaddons" name="Custom Addons Repository" version="0.0.1" provider-name="Custom Addons">
-	<extension point="xbmc.addon.repository" name="Addonskodi Repository">
+	<extension point="xbmc.addon.repository" name="Custom Addons Repository">
 		<info compressed="false">https://raw.githubusercontent.com/Sanjjay/CustomAddons/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/Sanjjay/CustomAddons/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/Sanjjay/CustomAddons/master/zips</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install Custom Addons</summary>
-		<description>Download and install addons from Custom Addons</description>
+		<description>Download and install addons from Custom Addons Repository</description>
 		<platform>all</platform>
 	</extension>
 </addon>
