@@ -191,6 +191,20 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
+<addon id="plugin.video.bbciplayer" name="BBC iPlayer" version="0.1.0" provider-name="Mikey1234">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">BBC iPlayer tv and live tv</summary>
+    <description lang="en">BBC iPlayer tv and live tv</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon
     id="plugin.video.iplayer"
     name="iPlayer"
