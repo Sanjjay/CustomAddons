@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.genesis" name="Genesis" version="4.5.7" provider-name="lambda">
+<addon id="plugin.video.genesis" name="Genesis" version="4.8.0" provider-name="lambda">
 	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.requests" version="1.0.0"/>
-		<import addon="script.module.metahandler" optional="true"/>
-		<import addon="script.module.simplejson" optional="true"/>
-		<import addon="script.module.parsedom" optional="true"/>
-		<import addon="plugin.video.youtube" optional="true"/>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.requests" version="1.0.0" />
+		<import addon="script.module.metahandler" optional="true" />
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="service.subtitles.opensubtitles" version="5.0.11" />
+		<import addon="service.subtitles.podnapisi" version="5.4.0" />
+		<import addon="service.subtitles.subscene" version="1.5.0" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
-	<extension point="xbmc.service" library="service.py" start="startup">
-	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">The origins of streaming</summary>
 		<description lang="en">Visit TVADDONS.ag for support</description>
