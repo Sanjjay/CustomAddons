@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.genesis" name="Genesis" version="4.8.2" provider-name="lambda">
+<addon id="plugin.video.genesis" name="Genesis" version="4.8.3" provider-name="lambda">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
 		<import addon="script.module.requests" version="1.0.0" />
 		<import addon="script.module.metahandler" optional="true" />
 		<import addon="plugin.video.youtube" optional="true" />
