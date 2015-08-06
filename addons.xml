@@ -332,7 +332,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.streamengine" name="Stream Engine" version="1.1.4" provider-name="Mucky Duck,Stream Engine">
+<addon id="plugin.video.streamengine" name="Stream Engine" version="1.1.5" provider-name="Mucky Duck,Stream Engine">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.simplejson" version="3.3.0"/>
