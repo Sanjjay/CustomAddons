@@ -313,7 +313,6 @@
 	<import addon="script.module.simplejson" version="3.3.0"/>
 	<import addon="script.module.urlresolver"  version="2.1.2"/>
 	<import addon="script.module.addon.common" />
-	<import addon="repository.mdrepo" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
