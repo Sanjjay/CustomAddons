@@ -67,7 +67,7 @@
 
 <addon id="plugin.video.icefilms"
        name="Icefilms"
-       version="1.8.7"
+       version="1.9.0"
        provider-name="Eldorado (originator: anarchintosh)">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -87,7 +87,8 @@
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <summary>Stream and download scene releases from the links listed on Icefilms.info</summary>
-        <description>Visit www.tvaddons.ag for support. Turns your XBMC into an instant free on-demand media-center. Stream and download to your library DVD and HD720p quality videos. Browse and search the library of over 77,000 videos with metadata and posters. Never experience the frustration of dead video links!</description>
+        <description>Visit www.tvaddons.ag for support. 
+Turns your XBMC into an instant free on-demand media-center. Stream and download to your library DVD and HD720p quality videos. Browse and search the library of over 77,000 videos with metadata and posters. Never experience the frustration of dead video links!</description>
     </extension>
 </addon>
 
