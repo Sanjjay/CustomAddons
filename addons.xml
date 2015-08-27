@@ -308,7 +308,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.streamengine" name="Stream Engine" version="1.1.7" provider-name="Mucky Duck,Stream Engine">
+<addon id="plugin.video.streamengine" name="Stream Engine" version="1.1.8" provider-name="Mucky Duck,Stream Engine">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.simplejson" version="3.3.0"/>
