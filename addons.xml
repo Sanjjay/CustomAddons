@@ -550,6 +550,34 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
 	</extension>
 </addon>
 
+<addon id="script.anyurl.player"
+       name="AnyURL Player"
+       version="1.2.2"
+       provider-name="Violet">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver"  version="2.6.0"/>
+    <import addon="script.module.requests" version="1.0.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+	  <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">AnyURL Player</summary>
+    <summary lang="es">AnyURL Player</summary>
+    <description lang="en">Play any URL supported by URLResolver</description>
+    <description lang="es">Reproducir cualquier enlace soportado por URLResolver</description>
+    <disclaimer></disclaimer>
+    <platform>all</platform>
+    <language></language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3</license>
+    <website></website>
+    <source>https://github.com/VioletRed/script.video.anyurl</source>
+    <forum></forum>
+    <email></email>
+  </extension>
+</addon>
+
 <addon id="plugin.video.F.T.V"
        name="FilmOn.TV"
        version="1.3.7a"
