@@ -6,7 +6,7 @@
 		<import addon="script.module.requests" version="1.0.0" />
 		<import addon="script.module.metahandler" optional="true" />
 		<import addon="plugin.video.youtube" optional="true" />
-		<import addon="plugin.video.zeus" optional="true" />
+		<import addon="plugin.video.zeus" version="1.0.6" />
 		<import addon="script.anyurl.player" version="1.2.2" />
 		<import addon="service.subtitles.opensubtitles" version="5.0.11" />
 		<import addon="service.subtitles.podnapisi" version="5.4.0" />
