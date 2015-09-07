@@ -6,7 +6,7 @@
 		<import addon="script.module.requests" version="1.0.0" />
 		<import addon="script.module.metahandler" optional="true" />
 		<import addon="plugin.video.youtube" optional="true" />
-		<import addon="plugin.video.zeus" version="1.0.6" />
+		<import addon="plugin.video.zeus" version="1.0.8" />
 		<import addon="script.anyurl.player" version="1.2.2" />
 		<import addon="service.subtitles.opensubtitles" version="5.0.11" />
 		<import addon="service.subtitles.podnapisi" version="5.4.0" />
@@ -243,7 +243,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
 	</extension>
 </addon>
 
-<addon id="plugin.video.zeus" name="ZEUS VIDEO" version="1.0.6" provider-name="ZEUS">
+<addon id="plugin.video.zeus" name="ZEUS VIDEO" version="1.0.8" provider-name="ZEUS">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.t0mm0.common" version="2.0.0"/>
