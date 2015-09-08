@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.genesis" name="Genesis" version="5.0.2" provider-name="lambda">
+<addon id="plugin.video.genesis" name="Genesis" version="5.0.3" provider-name="lambda">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -208,7 +208,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.itv" name="ITV" version="2.2.1" provider-name="Mikey1234">
+<addon id="plugin.video.itv" name="ITV" version="2.2.2" provider-name="Mikey1234">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -217,9 +217,8 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary>Plugin for ITV Player</summary>
+    <summary>Plugin for ITV Live Tv Player</summary>
     <description>ITV Player Front End</description>
-    <disclaimer lang="en">By using This Plugin You will receive sometimes an advert which helps funds the developers developing.....we all thank you!!</disclaimer>
   </extension>
 </addon>
 
