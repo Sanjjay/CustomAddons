@@ -208,7 +208,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.itv" name="ITV" version="2.2.2" provider-name="Mikey1234">
+<addon id="plugin.video.itv" name="ITV" version="2.2.4" provider-name="Mikey1234">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
