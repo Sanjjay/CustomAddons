@@ -618,7 +618,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
 	</extension>
 </addon>
 
-<addon id="skin.amber.mod" version="2.0.17" name="AmberMod" provider-name="Pecinko, Jester">
+<addon id="skin.amber.mod" version="2.0.18" name="AmberMod" provider-name="Pecinko, Jester">
   <requires>
     <import addon="xbmc.gui" version="5.3.0"/>
     <import addon="script.favourites" version="3.2.0"/>
