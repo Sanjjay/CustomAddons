@@ -32,7 +32,7 @@
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="2.2.0"/>
         <import addon="script.module.myconnpy" version="1.1.6" />
-	<import addon="script.salts.themepak" version="0.0.5" />
+	<import addon="script.salts.themepak" version="0.0.6" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -47,7 +47,7 @@
 	</extension>
 </addon>
 
-<addon id="script.salts.themepak" version="0.0.5" name="SALTS Themepak" provider-name="tknorris">
+<addon id="script.salts.themepak" version="0.0.6" name="SALTS Themepak" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
