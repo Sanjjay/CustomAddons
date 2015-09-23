@@ -180,24 +180,34 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.bbts" name="BBTS" version="0.1.2" provider-name="BBTS">
+<addon id="plugin.video.NJMSoccer"
+       name="NJM-Soccer"
+       version="3.0.4"
+       provider-name="Shadow Crew">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
   </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
+  <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">BBTS add-on</summary>
-    <description lang="en">BBTS is brought to you by the people and for the people. With the people's support, we will give back even more for all of us! Let's get started! Plugin by @koderdude</description>
-    <disclaimer lang="en">The add-on is maintained by the BBTS community and our generator fetches addons from multiple sources. Therefore BBTS accepts no responsibility for included addons,straems or midia.</disclaimer>
-    <language></language>
+    <summary lang="en"> Join us at http://robinhoodgroup-tv.info/community/index.php</summary>
+    <description lang="en">Special Thank you to Hakamac for his code, 
+	and to Shadow Crew and Mettle Kettle for their support.</description>
     <platform>all</platform>
-    <license></license>
-    <forum></forum>
-    <website>http://www.bbtsip.tv</website>
-    <email></email>
-    <source></source>
   </extension>
 </addon>
 
@@ -279,6 +289,27 @@
     <summary lang="en">Free Playlists courtesy of @uk_turk</summary>
     <description lang="en">Free Playlists courtesy of @uk_turk</description>
     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.bbts" name="BBTS" version="0.1.2" provider-name="BBTS">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">BBTS add-on</summary>
+    <description lang="en">BBTS is brought to you by the people and for the people. With the people's support, we will give back even more for all of us! Let's get started! Plugin by @koderdude</description>
+    <disclaimer lang="en">The add-on is maintained by the BBTS community and our generator fetches addons from multiple sources. Therefore BBTS accepts no responsibility for included addons,straems or midia.</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website>http://www.bbtsip.tv</website>
+    <email></email>
+    <source></source>
   </extension>
 </addon>
 
