@@ -160,6 +160,26 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.phstreams" name="Phoenix" version="2.5.7" provider-name="Blazetamer, lambda">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.requests" version="1.1.0" />
+		<import addon="script.module.metahandler" version="2.3.1" />
+		<import addon="plugin.video.youtube" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Phoenix</summary>
+		<description lang="en">Discover Great Streaming Playlists Exclusive to Kodi, Please visit www.tvaddons.ag for help and support!</description>
+		<platform>all</platform>
+		<forum>http://forums.tvaddons.ag/forums/220-PHOENIX-LIVE-STREAMS</forum>
+		<website>http://www.tvaddons.ag/</website>
+	</extension>
+</addon>
+
 <addon id="plugin.video.bbts" name="BBTS" version="0.1.2" provider-name="BBTS">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -181,16 +201,33 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.NJMSOCCER" name="NJM Soccer" version="1.0.3" provider-name="MetalKettle / NJM">
+<addon id="plugin.video.NJMSoccer"
+       name="NJM-Soccer"
+       version="3.0.4"
+       provider-name="Shadow Crew">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
+    <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Free Soccer Streams courtesy of NJM</summary>
-    <description lang="en">Free Soccer Streams courtesy of NJM</description>
+    <summary lang="en"> Join us at http://robinhoodgroup-tv.info/community/index.php</summary>
+    <description lang="en">Special Thank you to Hakamac for his code, 
+	and to Shadow Crew and Mettle Kettle for their support.</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -216,30 +253,26 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.zeus" name="ZEUS VIDEO" version="1.0.9" provider-name="ZEUS">
+<addon
+  id="plugin.video.gorillastreams"
+  version="2.2"
+  name="Gorilla Streams 2.0"
+  provider-name="Gorilla Streams">
   <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver"  version="2.1.2"/>
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-    <import addon="script.module.simplejson" version="3.3.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
+   <import addon="xbmc.python" version="2.1.0"/>
+   <import addon="script.common.plugin.cache" version="0.9.1"/>
   </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
+  <extension 
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">ZEUS VIDEO - KODI XBMC ADDON</summary>
-    <description lang="en">For Support and news go to http://zeus.video 
-	Video TV Shows Sport Latest and HD Movies 24/7 </description>
-    <platform>all</platform>
+    <summary lang="en">Streaming made easy.</summary>
+    <description lang="en">No streams are hosted by Gorilla. The code for this addon was originally wrote by MaxMustermann for the Sportsdevil addon and then modified by Dragon Streams and has now been modified by Gorilla Streams</description>
+    <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon</disclaimer>
+	<platform>all</platform>
+	<language>en</language>
   </extension>
 </addon>
 
