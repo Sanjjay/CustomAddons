@@ -163,7 +163,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="2.5.7" provider-name="Blazetamer, lambda">
+<addon id="plugin.video.phstreams" name="Phoenix" version="2.5.8" provider-name="Blazetamer, lambda">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
