@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.genesis" name="Genesis" version="5.0.6.1" provider-name="lambda">
+<addon id="plugin.video.genesis" name="Genesis" version="5.0.7" provider-name="lambda">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -18,6 +18,9 @@
 		<summary lang="en">The origins of streaming</summary>
 		<description lang="en">Visit TVADDONS.ag for support</description>
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<forum>http://forums.tvaddons.ag/forums/148-lambda-s-xbmc-addons</forum>
+		<source>https://offshoregit.com/lambda81/</source>
+		<website>https://offshoregit.com/lambda81/</website>
 		<platform>all</platform>
 	</extension>
 </addon>
