@@ -278,26 +278,23 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.p2p-streams"
-       name="p2p-streams"
-       version="1.2.0"
-       provider-name="enen92,fightnight">
+<addon id="program.plexus"
+       name="Plexus"
+       version="0.1.4"
+       provider-name="enen92, TV ADDONS">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.0.8"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.module.pytz" />
     <import addon="script.module.requests" />
-    <import addon="script.module.mechanize" version="0.2.6"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
         <provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>SopCast and AceStream</summary>
-    <description lang="en">AceStream and Sopcast in your favourite media center! Watch peer-to-peer streams in Kodi without the need for external players. Project page: https://github.com/enen92/P2P-Streams-Kodi</description>
-    <disclaimer lang="en">The authors does not host nor distribute any of the content you may watch using this addon. The authors have no affiliation with any of the content providers. This addon does not track its users.</disclaimer>
+    <summary>SopCast and AceStream for Kodi</summary>
+    <description lang="en">Plexus - Any complex structure containing an intricate network of parts. Plexus brings native peer-to-peer support (AceStream and SopCast) for Kodi Entertainment Center for several platforms.[CR][CR]Documentation: (missing)</description>
+    <disclaimer lang="en">The author does not host nor distribute any of the content you may watch using this addon. The author has no part in the development of any included technologies. When seeking help in Kodi's forum please respect rules (http://kodi.wiki/view/Forum_rules).</disclaimer>
+    <forum>http://forums.tvaddons.ag</forum>
     <platform>all</platform>
   </extension>
 </addon>
