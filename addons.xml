@@ -443,6 +443,26 @@
   </extension>
 </addon>
 
+<addon id="service.playitx" name="PlayIt" version="0.6.3"
+	provider-name="AJ">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.simplejson"  />
+		<import addon="script.module.beautifulsoup" />
+		<import addon="script.module.turtlex"  />
+		<import addon="plugin.playitx" />
+	</requires>
+	<extension point="xbmc.service" library="TurtleMain.py"
+		start="login">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Play the video received from PlayIt service clients like Web Browser extensions</summary>
+		<description>PlayIt is capable of playing almost all type of videos from most of hosted video sources.</description>
+		<license>GNU GPL v3</license>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="skin.amber.mod" version="2.0.18" name="AmberMod" provider-name="Pecinko, Jester">
   <requires>
     <import addon="xbmc.gui" version="5.3.0"/>
