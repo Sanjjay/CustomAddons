@@ -41,6 +41,34 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.bbciplayer" name="BBC iPlayer" version="0.1.3" provider-name="Mikey1234">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">BBC iPlayer</summary>
+    <description lang="en">BBC iPlayer</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.itv" name="ITV" version="2.2.4" provider-name="Mikey1234">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Plugin for ITV Live Tv Player</summary>
+    <description>ITV Player Front End</description>
+  </extension>
+</addon>
+
 <addon id="plugin.video.bharatmovies"
   version="1.0.2"
   name="bharatmovies (Indian Movies)"
