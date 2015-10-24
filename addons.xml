@@ -22,7 +22,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="1.0.47" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="1.0.65" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="2.2.0"/>
@@ -37,7 +37,7 @@
         <description>This addon uses trakt.tv for most show and movie meta data and uses a variety of websites for hoster sources</description>
         <platform>all</platform>
         <website>http://tvaddons.ag/</website>
-	<forum>http://forums.tvaddons.ag/forums/180-TKNORRIS-RELEASE-REPOSITORY</forum>
+		<forum>http://forums.tvaddons.ag/forums/180-TKNORRIS-RELEASE-REPOSITORY</forum>
 	</extension>
 </addon>
 
@@ -153,7 +153,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="2.6.0" provider-name="Blazetamer, lambda">
+<addon id="plugin.video.phstreams" name="Phoenix" version="2.6.1" provider-name="Blazetamer, lambda">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
@@ -206,7 +206,7 @@
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2015.10.02"
+  version="2015.10.20"
   name="SportsDevil"
   provider-name="MaxMustermann">
   <requires>
@@ -453,7 +453,7 @@
 
 <addon id="script.module.urlresolver" 
      name="URLResolver" 
-     version="2.10.3" 
+     version="2.10.4" 
      provider-name="Eldorado">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
