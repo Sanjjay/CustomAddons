@@ -22,7 +22,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="1.0.75" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="1.0.76" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="2.2.0"/>
@@ -38,7 +38,7 @@
         <platform>all</platform>
         <website>http://tvaddons.ag/</website>
 	<forum>http://forums.tvaddons.ag/forums/180-TKNORRIS-RELEASE-REPOSITORY</forum>
-    </extension>
+     </extension>
 </addon>
 
 <addon id="script.salts.themepak" version="0.0.7" name="SALTS Themepak" provider-name="tknorris">
