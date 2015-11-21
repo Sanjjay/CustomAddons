@@ -55,7 +55,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.bbciplayer" name="BBC iPlayer" version="0.1.4" provider-name="Mikey1234">
+<addon id="plugin.video.bbciplayer" name="BBC iPlayer" version="0.1.5" provider-name="Mikey1234">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -69,7 +69,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.itv" name="ITV" version="2.2.4" provider-name="Mikey1234">
+<addon id="plugin.video.itv" name="ITV" version="2.2.5" provider-name="Mikey1234">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
