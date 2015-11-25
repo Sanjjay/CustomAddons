@@ -220,7 +220,7 @@
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2015.11.08"
+  version="2015.11.22"
   name="SportsDevil"
   provider-name="MaxMustermann">
   <requires>
