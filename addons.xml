@@ -468,7 +468,7 @@
 
 <addon id="script.module.urlresolver" 
      name="URLResolver" 
-     version="2.10.6" 
+     version="2.10.7" 
      provider-name="Eldorado">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -507,13 +507,10 @@
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.metahandler" optional="true" />
   </requires>
-
   <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  
-  <extension point="xbmc.service" library="service.py" start="startup" />
-  
+        <provides>executable</provides>
+  </extension>  
+  <extension point="xbmc.service" library="service.py" start="startup" />  
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Put all your favourites bits of all your favourites addons into one easy to use addon.</summary>
     <description lang="en">Super Favourites is a better way of managing your Kodi Favourites.[CR][CR]Virtually any menu item within Kodi can be added to Super Favourites, even from addons that don't normally provide this feature.[CR][CR]Super Favourites allows you to better manage your Kodi favourites, including the creation of sub-folders, into which your Kodi favourites can then be copied or moved into.[CR][CR]This allows you to create you own custom addon with just the best bits of your favourite addons. Search your favourite addons, play your favourite music, read your favourite comic strips, select your favourite playlists, browse your favourite movies, listen to your favourite radio stations, watch your favourite cartoons, the possibilities are endless, all from within one easy to use addon.</description>
