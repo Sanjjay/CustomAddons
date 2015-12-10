@@ -314,7 +314,7 @@
 </addon>
 
 <addon id="plugin.video.filmibynaturex" name="Filmi BY NATURE (Indian Movies)"
-	version="2.5.7" provider-name="AJ">
+	version="2.5.7.1" provider-name="AJ">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.simplejson" version="2.0.10" />
