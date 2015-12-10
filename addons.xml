@@ -22,7 +22,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="1.0.82" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="1.0.84" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="2.2.0"/>
@@ -37,8 +37,8 @@
         <description>This addon uses trakt.tv for most show and movie meta data and uses a variety of websites for hoster sources</description>
         <platform>all</platform>
         <website>http://tvaddons.ag/</website>
-		<forum>http://forums.tvaddons.ag/forums/180-TKNORRIS-RELEASE-REPOSITORY</forum>
-	</extension>
+	<forum>http://forums.tvaddons.ag/forums/180-TKNORRIS-RELEASE-REPOSITORY</forum>
+    </extension>
 </addon>
 
 <addon id="script.salts.themepak" version="0.0.7" name="SALTS Themepak" provider-name="tknorris">
@@ -84,7 +84,7 @@
 </addon>
 
 <addon id="plugin.video.bharatmovies"
-  version="1.0.2"
+  version="1.0.2.1"
   name="bharatmovies (Indian Movies)"
   provider-name="Dknight">
   <requires>
@@ -105,7 +105,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.india4movie" name="India4movie (Indian Movies)" version="0.0.3" provider-name="Irfan Charania">
+<addon id="plugin.video.india4movie" name="India4movie (Indian Movies)" version="0.0.3.1" provider-name="Irfan Charania">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.xbmcswift2" version="2.4.0"/>
@@ -126,7 +126,7 @@
 
 <addon
   id="plugin.video.movierulz"
-  version="1.0.7"
+  version="1.0.8"
   name="movierulz (Indian Movies)"
   provider-name="Dknight">
   <requires>
@@ -147,7 +147,7 @@
 </addon>
 
 <addon id="plugin.video.sominaltv"
-  version="0.9.1"
+  version="0.9.1.1"
   name="sominaltv (Indian Movies)"
   provider-name="Dknight">
   <requires>
@@ -167,7 +167,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="2.6.91" provider-name="Blazetamer, lambda">
+<addon id="plugin.video.phstreams" name="Phoenix" version="2.7.0" provider-name="Blazetamer, lambda">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
@@ -239,46 +239,6 @@
   </extension>
 </addon>
 
-<addon
-  id="plugin.video.gorillastreams"
-  version="2.2"
-  name="Gorilla Streams 2.0"
-  provider-name="Gorilla Streams">
-  <requires>
-   <import addon="xbmc.python" version="2.1.0"/>
-   <import addon="script.common.plugin.cache" version="0.9.1"/>
-  </requires>
-  <extension 
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Streaming made easy.</summary>
-    <description lang="en">No streams are hosted by Gorilla. The code for this addon was originally wrote by MaxMustermann for the Sportsdevil addon and then modified by Dragon Streams and has now been modified by Gorilla Streams</description>
-    <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon</disclaimer>
-	<platform>all</platform>
-	<language>en</language>
-  </extension>
-</addon>
-
-<addon id="plugin.video.streamengine" name="Stream Engine" version="1.2.1" provider-name="Mucky Duck,Stream Engine">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.simplejson" version="3.3.0"/>
-	<import addon="script.module.urlresolver"  version="2.1.2"/>
-	<import addon="script.module.addon.common" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Top Quality Streaming Source.</summary>
-    <description lang="en"></description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.ukturk" name="UK Turk Playlists" version="2.0.1" provider-name="MetalKettle">
   <requires>
     <import addon="script.module.simplejson" version="3.3.0"/>
@@ -296,27 +256,6 @@
     <summary lang="en">Free Playlists courtesy of @uk_turk</summary>
     <description lang="en">Free Playlists courtesy of @uk_turk</description>
     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.bbts" name="BBTS" version="0.1.2" provider-name="BBTS">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">BBTS add-on</summary>
-    <description lang="en">BBTS is brought to you by the people and for the people. With the people's support, we will give back even more for all of us! Let's get started! Plugin by @koderdude</description>
-    <disclaimer lang="en">The add-on is maintained by the BBTS community and our generator fetches addons from multiple sources. Therefore BBTS accepts no responsibility for included addons,straems or midia.</disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license></license>
-    <forum></forum>
-    <website>http://www.bbtsip.tv</website>
-    <email></email>
-    <source></source>
   </extension>
 </addon>
 
@@ -341,7 +280,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.tvondesizonexl" name="TV on DESI ZONE (Indian TV Shows)" version="2.7.5"
+<addon id="plugin.video.tvondesizonexl" name="TV on DESI ZONE (Indian TV Shows)" version="2.7.6"
 	provider-name="ajdeveloped/jchirag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
@@ -468,7 +407,7 @@
 
 <addon id="script.module.urlresolver" 
      name="URLResolver" 
-     version="2.10.7" 
+     version="2.10.8" 
      provider-name="Eldorado">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
