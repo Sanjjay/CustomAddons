@@ -282,7 +282,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.tvondesizonexl" name="TV on DESI ZONE (Indian TV Shows)" version="2.7.6"
+<addon id="plugin.video.tvondesizonexl" name="TV on DESI ZONE (Indian TV Shows)" version="2.7.8"
 	provider-name="ajdeveloped/jchirag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
