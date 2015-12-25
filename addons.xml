@@ -22,7 +22,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="1.0.92" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="1.0.93" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="2.2.0"/>
@@ -282,7 +282,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.tvondesizonexl" name="TV on DESI ZONE (Indian TV Shows)" version="2.7.8"
+<addon id="plugin.video.tvondesizonexl" name="TV on DESI ZONE (Indian TV Shows)" version="2.7.9"
 	provider-name="ajdeveloped/jchirag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
