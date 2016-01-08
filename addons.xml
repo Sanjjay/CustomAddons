@@ -22,7 +22,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="1.0.94" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="1.0.95" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="2.2.0"/>
@@ -37,8 +37,8 @@
         <description>This addon uses trakt.tv for most show and movie meta data and uses a variety of websites for hoster sources</description>
         <platform>all</platform>
         <website>http://tvaddons.ag/</website>
-		<forum>http://forums.tvaddons.ag/forums/180-TKNORRIS-RELEASE-REPOSITORY</forum>
-	</extension>
+	<forum>http://forums.tvaddons.ag/forums/180-TKNORRIS-RELEASE-REPOSITORY</forum>
+     </extension>
 </addon>
 
 <addon id="script.salts.themepak" version="0.0.8" name="SALTS Themepak" provider-name="tknorris">
@@ -55,7 +55,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.bbciplayer" name="BBC iPlayer" version="0.1.9" provider-name="Mikey1234">
+<addon id="plugin.video.bbciplayer" name="BBC iPlayer" version="0.2.0" provider-name="Mikey1234">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -167,7 +167,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="2.7.4" provider-name="Blazetamer, lambda">
+addon id="plugin.video.phstreams" name="Phoenix" version="2.7.5" provider-name="Blazetamer, lambda, VinMan_JSV">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
