@@ -167,7 +167,7 @@
   </extension>
 </addon>
 
-addon id="plugin.video.phstreams" name="Phoenix" version="2.7.5" provider-name="Blazetamer, lambda, VinMan_JSV">
+<addon id="plugin.video.phstreams" name="Phoenix" version="2.7.5" provider-name="Blazetamer, lambda, VinMan_JSV">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
