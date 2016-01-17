@@ -444,7 +444,7 @@
 
 <addon id="script.module.urlresolver" 
      name="URLResolver" 
-     version="2.10.9" 
+     version="2.10.9.1" 
      provider-name="Eldorado">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
