@@ -22,7 +22,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="1.0.101" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="1.0.105" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="2.2.0"/>
@@ -167,7 +167,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="2.7.7" provider-name="Blazetamer, lambda, VinMan_JSV">
+<addon id="plugin.video.phstreams" name="Phoenix" version="2.7.8" provider-name="Blazetamer, lambda, VinMan_JSV">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
@@ -291,6 +291,27 @@
     <website>http://ccloudtv.org</website>
     <email></email>
     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.p2psport"
+	name="P2P Sport"
+	version="0.1.4"
+	provider-name="natko1412,Extracsaba">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.mechanize" version="0.2.6"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch p2p sports in Kodi</summary>
+    <platform>all</platform>
+    <forum>forums.tvaddons.ag</forum>
   </extension>
 </addon>
 
@@ -477,6 +498,24 @@
 		<license>GNU GPL v3</license>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="script.module.liveresolver" 
+     name="LiveResolver" 
+     version="0.1.17" 
+     provider-name="natko1412">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.addon.common" version="2.0.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Resolve common live video host URL's to be playable in XBMC/Kodi + find links embeded in sites.</summary>
+    <description lang="en"></description>    
+  </extension>
 </addon>
 
 <addon id="plugin.program.super.favourites" name="Super Favourites" version="1.0.45.1" provider-name="spoyser">
