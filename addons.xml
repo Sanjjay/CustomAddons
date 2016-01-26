@@ -83,6 +83,26 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.einthusan"
+       name="Einthusan (Indian Movies)"
+       version="1.2.8"
+       provider-name="humla">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.t0mm0.common" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Watch Hindi, Tamil  movies</summary>
+        <description>This XBMC plugin allows to watch Hindi and Tamil movies from Einthusan.com. Please support them.
+        Credits to suriya222 for the thumbnails.</description>
+    </extension>
+</addon>
+
 <addon id="plugin.video.bharatmovies"
   version="1.0.2.1"
   name="bharatmovies (Indian Movies)"
@@ -105,7 +125,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.india4movie" name="India4movie (Indian Movies)" version="0.0.3.1" provider-name="Irfan Charania">
+<addon id="plugin.video.india4movie" name="India4movie (Indian Movies)" version="0.0.3.2" provider-name="Irfan Charania">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.xbmcswift2" version="2.4.0"/>
@@ -113,6 +133,7 @@
     <import addon="script.module.urlresolver"/>
     <import addon="script.module.requests"/>
     <import addon="plugin.video.youtube" optional="true" />
+    <import addon="plugin.video.einthusan" version="1.2.8" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>video</provides>
