@@ -22,7 +22,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="1.0.111" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="1.0.112" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="2.2.0"/>
@@ -525,7 +525,7 @@
 
 <addon id="script.module.liveresolver" 
      name="LiveResolver" 
-     version="0.1.19" 
+     version="0.1.20" 
      provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
