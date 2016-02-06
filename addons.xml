@@ -489,11 +489,12 @@
 
 <addon id="script.module.urlresolver" 
      name="URLResolver" 
-     version="2.10.11" 
+     version="2.10.10" 
      provider-name="Eldorado">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
   </requires>
   <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.addon.metadata">
