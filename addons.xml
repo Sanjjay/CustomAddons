@@ -22,7 +22,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="1.0.112" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="1.0.114" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="2.2.0"/>
@@ -261,7 +261,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.ukturk" name="UK Turk Playlists" version="2.0.4" provider-name="MetalKettle">
+<addon id="plugin.video.ukturk" name="UK Turk Playlists" version="2.0.7" provider-name="MetalKettle">
   <requires>
     <import addon="script.module.simplejson" version="3.3.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -271,7 +271,7 @@
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
     <import addon="plugin.video.ccloudtv" version="1.4.2" />
-    <import addon="plugin.program.super.favourites" version="1.0.45.1" />
+    <import addon="plugin.program.super.favourites" version="1.0.46.1" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
