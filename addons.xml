@@ -19,7 +19,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="1.0.115" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.0~rc1" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="2.2.0"/>
@@ -485,7 +485,7 @@
 
 <addon id="script.module.urlresolver" 
      name="URLResolver" 
-     version="2.10.11" 
+     version="2.10.12" 
      provider-name="Eldorado">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
