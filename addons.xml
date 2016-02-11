@@ -236,29 +236,6 @@
   </extension>
 </addon>
 
-<addon
-  id="plugin.video.SportsDevil"
-  version="2016.02.01"
-  name="SportsDevil"
-  provider-name="SportsDevil">
-  <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
-   <import addon="script.module.requests" />
-   <import addon="script.module.pydevd" version="4.4.0" optional="true"/>
-  </requires>
-  <extension 
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Play videos of different sports streaming sites</summary>
-    <description>Play videos of different sports streaming sites</description>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.ukturk" name="UK Turk Playlists" version="2.0.7" provider-name="MetalKettle">
   <requires>
     <import addon="script.module.simplejson" version="3.3.0"/>
@@ -315,25 +292,26 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.p2psport"
-	name="P2P Sport"
-	version="0.1.4"
-	provider-name="natko1412,Extracsaba">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.mechanize" version="0.2.6"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Watch p2p sports in Kodi</summary>
-    <platform>all</platform>
-    <forum>forums.tvaddons.ag</forum>
-  </extension>
+<addon id="plugin.video.castaway" name="Castaway" version="0.0.9" provider-name="natko1412">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.beautifulsoup" version="3.2.1"/>
+		<import addon="script.module.requests"  />
+		<import addon="script.module.mechanize"  />
+    		<import addon="script.module.addon.common" />
+		<import addon="script.module.urlresolver" />
+		<import addon="script.module.liveresolver"  />    	
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Just a castaway.</summary>
+		<description lang="en">Visit TVADDONS.ag for support.
+		</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>	
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="program.plexus"
