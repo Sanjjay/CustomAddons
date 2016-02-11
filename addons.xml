@@ -122,11 +122,11 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.india4movie" name="India4movie (Indian Movies)" version="0.0.3.2" provider-name="Irfan Charania">
+<addon id="plugin.video.india4movie" name="India4movie" version="0.2.0" provider-name="Irfan Charania">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.xbmcswift2" version="2.4.0"/>
-    <import addon="script.module.beautifulsoup" version="3.0.8"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
     <import addon="script.module.urlresolver"/>
     <import addon="script.module.requests"/>
     <import addon="plugin.video.youtube" optional="true" />
@@ -137,10 +137,19 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary >India4movie addon scrapes movies from www.india4movie.com</summary>
-    <description>www.india4movie.com provides movies in the following categories: Dubbed, Pakistani, Hindi, Hollywood, Malayalam, Marathi, Punjabi, Tamil, Telegu</description>
+    <language>en</language>
+    <website>http://www.india4movie.co/</website>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <source>https://github.com/irfancharania/plugin.video.india4movie</source>
+    <summary lang="en">Scrapes movies from www.india4movie.co, movierulz.to, fullnewmovie.net</summary>
+    <description>This addon provides movies in the following categories: Dubbed, Pakistani, Hindi, Hollywood, Malayalam, Marathi, Punjabi, Tamil, Telegu
+Still needs lots of work. Not fully tested.
+The addon relies on the following addons to resolve/play videos:
+Url Resolver
+YouTube</description>
   </extension>
 </addon>
+
 
 <addon
   id="plugin.video.movierulz"
