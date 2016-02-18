@@ -24,6 +24,7 @@
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.urlresolver" version="2.10.11"/>
 		<import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="script.exodus.artwork" version="1.0.0" />
 		<import addon="plugin.video.youtube" optional="true" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
@@ -375,7 +376,7 @@ YouTube</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.tvondesizonexl" name="TV on DESI ZONE (Indian TV Shows)" version="2.8.5"
+<addon id="plugin.video.tvondesizonexl" name="TV on DESI ZONE (Indian TV Shows)" version="2.8.6"
 	provider-name="ajdeveloped/jchirag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
