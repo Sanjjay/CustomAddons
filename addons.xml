@@ -19,7 +19,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="1.1.1" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="1.1.1" name="Exodus (NEW)" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.exodus.artwork" version="1.0.0" />
