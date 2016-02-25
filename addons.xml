@@ -19,7 +19,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="1.1.1" name="Exodus (NEW)" provider-name="Exodus">
+<addon id="plugin.video.origin3" version="1.1.1" name="Origin3" provider-name="Origin3">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.exodus.artwork" version="1.0.0" />
@@ -31,7 +31,7 @@
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Exodus</summary>
+		<summary lang="en">Origin3</summary>
 		<description lang="en">Please visit www.tvaddons.ag for Exodus support and assistance! Kindly note that Exodus is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
 		<platform>all</platform>
