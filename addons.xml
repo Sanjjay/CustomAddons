@@ -355,6 +355,27 @@ YouTube</description>
 	</extension>
 </addon>
 
+<addon id="plugin.video.youtube" name="YouTube" version="5.1.20" provider-name="bromix">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+        <summary lang="en">Plugin for YouTube</summary>
+        <description lang="en">YouTube is a one of the biggest video-sharing websites of the world.</description>
+		<disclaimer lang="en"></disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=200735</forum>
+		<website>http://www.youtube.com</website>
+		<email>bromix at gmx dot net</email>
+		<source>https://github.com/bromix/plugin.video.youtube</source>
+	</extension>
+</addon>
+
 <addon id="program.plexus"
        name="Plexus"
        version="0.1.4"
