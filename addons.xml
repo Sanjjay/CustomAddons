@@ -19,7 +19,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.8" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.9" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="2.2.0"/>
@@ -52,6 +52,25 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.origin" version="1.1.1" name="Origin" provider-name="Origin">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.exodus.artwork" version="1.0.0" />
+		<import addon="script.module.urlresolver" version="2.10.11"/>
+		<import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="plugin.video.youtube" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Origin</summary>
+		<description lang="en">Please visit www.tvaddons.ag for Exodus support and assistance! Kindly note that Exodus is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="script.exodus.artwork" version="1.0.0" name="Exodus Artwork" provider-name="l*m*d*">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
@@ -64,6 +83,32 @@
 		<description>Themes for Exodus are maintained separately to make distribution of the the addon itself easier/faster.</description>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="plugin.video.aftershock"
+       name="Aftershock"
+       version="3.1.0"
+       provider-name="IDev">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver"  version="2.6.0"/>
+		<import addon="script.module.metahandler"  version="1.0.2"/>
+        <import addon="script.module.requests" version="1.0.0" />
+		<import addon="script.module.beautifulsoup"/>
+        <import addon="plugin.video.youtube"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    <summary lang="en">Watch Hindi Movies &amp; TV Shows</summary>
+    <description lang="en">Addon based on GENESIS framework by lambda to browse and play a wide selection of Desi Movies, TV Shows and Live Streams. The author doesn't have any affiliation with the content providers.</description>
+    <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+    <platform>all</platform>
+    <forum>https://forums.tvaddons.ag/addon-releases/41405-aftershock-video-addon-indian-movies-tv.html</forum>
+	<website>https://forums.tvaddons.ag/addon-releases/41405-aftershock-video-addon-indian-movies-tv.html</website>
+  </extension>
 </addon>
 
 <addon id="plugin.video.bbciplayer" name="BBC iPlayer" version="0.2.0" provider-name="Mikey1234">
