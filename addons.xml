@@ -19,7 +19,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.9" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.11" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="2.2.0"/>
@@ -253,7 +253,7 @@ YouTube</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="2.8.8" provider-name="Blazetamer, lambda">
+<addon id="plugin.video.phstreams" name="Phoenix" version="2.8.9" provider-name="Blazetamer">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
@@ -327,7 +327,7 @@ YouTube</description>
 
 <addon id="plugin.video.ccloudtv"
        name="cCloud TV"
-       version="1.4.4"
+       version="1.4.5"
        provider-name="podgod, Coder Alpha">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -347,9 +347,9 @@ YouTube</description>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>All the best from cCloud TV</summary>
-    <description>cCloud is an open source cloud based social IPTV service. It is built by the community for the community, where streaming is just a click away. Just click, play and stream yup it's that simple. Just go to http://ccloudtv.org  and enjoy:) Please report any channels that are down here http://www.tiny.cc/reportchs 
+    <description>cCloud is an open source cloud based social IPTV service. It is built by the community for the community, where streaming is just a click away. Just click, play and stream. Yes, it's that simple. Just go to http://ccloudtv.org  and enjoy:) Please report any channels that are down here http://www.tiny.cc/reportchs Users can now check servers status which can be found at http://ccloudtv.org/status
     </description>
-	<license>http://www.gnu.org/licenses/</license>
+    <license>http://www.gnu.org/licenses/</license>
     <forum>http://ccloudtv.org/forum</forum>
     <website>http://ccloudtv.org</website>
     <website>http://facebook.com/ccloudapp</website>
@@ -359,7 +359,7 @@ YouTube</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.castaway" name="Castaway" version="0.0.9" provider-name="natko1412">
+<addon id="plugin.video.castaway" name="Castaway" version="0.1.1" provider-name="natko1412">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -367,7 +367,9 @@ YouTube</description>
 		<import addon="script.module.mechanize"  />
     		<import addon="script.module.addon.common" />
 		<import addon="script.module.urlresolver" />
-		<import addon="script.module.liveresolver"  />    	
+		<import addon="script.module.liveresolver"  />
+		<import addon="script.module.pyxbmct" version="1.1.4"/>
+		<import addon="script.module.youtube.dl" version="15.318.0"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -376,7 +378,7 @@ YouTube</description>
 		<summary lang="en">Just a castaway.</summary>
 		<description lang="en">Visit TVADDONS.ag for support.
 		</description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>	
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -587,7 +589,7 @@ YouTube</description>
 
 <addon id="script.module.liveresolver" 
      name="LiveResolver" 
-     version="0.1.22" 
+     version="0.1.23" 
      provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
