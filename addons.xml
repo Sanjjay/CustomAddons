@@ -87,13 +87,13 @@
 
 <addon id="plugin.video.aftershock"
        name="Aftershock"
-       version="3.1.0"
+       version="3.2.0"
        provider-name="IDev">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.urlresolver"  version="2.6.0"/>
 		<import addon="script.module.metahandler"  version="1.0.2"/>
-        <import addon="script.module.requests" version="1.0.0" />
+	        <import addon="script.module.requests" version="1.0.0" />
 		<import addon="script.module.beautifulsoup"/>
         <import addon="plugin.video.youtube"/>
     </requires>
@@ -107,7 +107,7 @@
     <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
     <platform>all</platform>
     <forum>https://forums.tvaddons.ag/addon-releases/41405-aftershock-video-addon-indian-movies-tv.html</forum>
-	<website>https://forums.tvaddons.ag/addon-releases/41405-aftershock-video-addon-indian-movies-tv.html</website>
+    <website>https://forums.tvaddons.ag/addon-releases/41405-aftershock-video-addon-indian-movies-tv.html</website>
   </extension>
 </addon>
 
@@ -589,7 +589,7 @@ YouTube</description>
 
 <addon id="script.module.liveresolver" 
      name="LiveResolver" 
-     version="0.1.23" 
+     version="0.1.24" 
      provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
