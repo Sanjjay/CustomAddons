@@ -633,20 +633,21 @@ YouTube</description>
     </extension>
 </addon>
 
-<addon id="skin.amber.mod" version="2.0.18" name="AmberMod" provider-name="Pecinko, Jester">
+<addon id="skin.amber.mod" version="2.1.2" name="AmberMod" provider-name="Pecinko, Jester">
   <requires>
-    <import addon="xbmc.gui" version="5.3.0"/>
-    <import addon="script.favourites" version="3.2.0"/>
-    <import addon="service.skin.widgets" version="0.0.27"/>
+    <import addon="xbmc.gui" version="5.9.0"/>
+    <import addon="script.favourites" version="6.0.2"/>
+    <import addon="service.skin.widgets" version="0.0.29"/>
   </requires>
   <extension
     point="xbmc.gui.skin" debugging="false">
     <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">No bloatware, just your media with easy to navigate interface</summary>
-    <description lang="en">No bloatware, just your media with easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skin.</description>
-    <platform>all</platform>
+    <summary lang="en">No bloatware, just your media with an easy to navigate interface</summary>
+    <description lang="en">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.
+    </description>
+        <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
   </extension>
 </addon>
