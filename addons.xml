@@ -181,7 +181,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.india4movie" name="India4movie" version="0.2.0" provider-name="Irfan Charania">
+<addon id="plugin.video.india4movie" name="India4movie (Indian Movies)" version="0.2.0" provider-name="Irfan Charania">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.xbmcswift2" version="2.4.0"/>
@@ -635,9 +635,10 @@ YouTube</description>
 
 <addon id="skin.amber.mod" version="2.1.2" name="AmberMod" provider-name="Pecinko, Jester">
   <requires>
-    <import addon="xbmc.gui" version="5.9.0"/>
-    <import addon="script.favourites" version="6.0.2"/>
-    <import addon="service.skin.widgets" version="0.0.29"/>
+    <import addon="xbmc.gui" version="5.10.0"/>
+    <import addon="script.favourites" version="6.0.3"/>
+    <import addon="service.skin.widgets" version="0.0.31"/>
+    <import addon="resource.uisounds.amber" version="1.0.0"/>
   </requires>
   <extension
     point="xbmc.gui.skin" debugging="false">
