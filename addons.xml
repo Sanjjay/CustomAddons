@@ -74,7 +74,6 @@
 <addon id="script.exodus.artwork" version="1.0.0" name="Exodus Artwork" provider-name="l*m*d*">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
- 		<import addon="plugin.video.exodus" version="1.1.1" />
 	</requires>
 	<extension point="xbmc.python.script" library="default.py">
 		<provides>executable</provides>
