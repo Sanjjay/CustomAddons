@@ -271,6 +271,21 @@ YouTube</description>
     </extension>
 </addon>
 
+<addon id="script.module.TheYid.common" 
+	     name="TheYid's common stuff" 
+	     version="0.1.2" 
+	     provider-name="TheYid">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Collection of commonly used addon routines</summary>
+    <description lang="en">Collection of commonly used addon routines to simplify addon development.</description>
+  </extension>
+</addon>
+
 <addon id="plugin.video.phstreams" name="Phoenix" version="2.8.9" provider-name="Blazetamer">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
