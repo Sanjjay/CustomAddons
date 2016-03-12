@@ -86,7 +86,7 @@
 </addon>
 
 <addon id="plugin.video.aftershock"
-       name="Aftershock"
+       name="Aftershock (Indian Movies/TVShows/Live)"
        version="3.3.1"
        provider-name="IDev">
     <requires>
@@ -181,7 +181,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.india4movie" name="India4movie (Indian Movies)" version="0.2.0" provider-name="Irfan Charania">
+<addon id="plugin.video.india4movie" name="India4movie (Indian Movies)" version="0.2.1" provider-name="Irfan Charania">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.xbmcswift2" version="2.4.0"/>
@@ -190,6 +190,7 @@
     <import addon="script.module.requests"/>
     <import addon="plugin.video.youtube" optional="true" />
     <import addon="plugin.video.einthusan" version="1.2.8" />
+    <import addon="plugin.video.perfecthdmovies" version="0.0.4" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>video</provides>
@@ -251,6 +252,23 @@ YouTube</description>
     <description>Watch sominaltv (indian) Videos</description>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.perfecthdmovies" version="0.0.4" name="Perfect HD Movies (Indian Movies)" provider-name="@MrEntertain">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.TheYid.common" version="0.1.1"/>
+        <import addon="script.module.urlresolver"  version="2.0.9"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>movies</summary>
+        <description>great for Hollywood Bollywood Regional Dubbed 1080p 720p movies with the best hosts</description>
+        <platform>all</platform>
+        <disclaimer lang="en">All the movies on this website are hosted on the third party sites and uploaded by other people. We are not responsible for any content that hosted on on the third-party sites. If you have any legal issues please contact appropriate video owners hosters.</disclaimer>
+    </extension>
 </addon>
 
 <addon id="plugin.video.phstreams" name="Phoenix" version="2.8.9" provider-name="Blazetamer">
@@ -327,7 +345,7 @@ YouTube</description>
 
 <addon id="plugin.video.ccloudtv"
        name="cCloud TV"
-       version="1.4.5"
+       version="1.4.6"
        provider-name="podgod, Coder Alpha">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -525,7 +543,7 @@ YouTube</description>
 </addon>
 
 <addon id="plugin.video.ZemTV-shani"
-       name="ZemTV.com"
+       name="ZemTV.com (Indian Live TV)"
        version="4.6.4"
        provider-name="shani">
   <requires>
