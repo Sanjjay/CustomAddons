@@ -133,8 +133,8 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Plugin for ITV Live Tv Player</summary>
-    <description>ITV Player Front End</description>
+    <summary lang="en">Plugin for ITV Live Tv Player</summary>
+    <description lang="en">ITV Player Front End</description>
     <platform>all</platform>
   </extension>
 </addon>
