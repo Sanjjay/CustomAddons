@@ -161,7 +161,7 @@
 
 <addon id="plugin.video.bharatmovies"
   version="1.0.2.1"
-  name="bharatmovies (Indian Movies)"
+  name="Bharatmovies (Indian Movies)"
   provider-name="Dknight">
   <requires>
 		<import addon="script.module.simplejson" />
@@ -214,7 +214,7 @@ YouTube</description>
 <addon
   id="plugin.video.movierulz"
   version="1.0.8"
-  name="movierulz (Indian Movies)"
+  name="Movierulz (Indian Movies)"
   provider-name="Dknight">
   <requires>
 		<import addon="script.module.simplejson" />
@@ -235,7 +235,7 @@ YouTube</description>
 
 <addon id="plugin.video.sominaltv"
   version="0.9.1.1"
-  name="sominaltv (Indian Movies)"
+  name="Sominaltv (Indian Movies)"
   provider-name="Dknight">
   <requires>
 		<import addon="script.module.simplejson" />
@@ -558,7 +558,7 @@ YouTube</description>
 </addon>
 
 <addon id="plugin.video.ZemTV-shani"
-       name="ZemTV.com (Indian Live TV)"
+       name="ZemTV (Indian Live TV)"
        version="4.6.5"
        provider-name="shani">
   <requires>
