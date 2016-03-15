@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.genesis" name="Genesis"  version="5.1.4.9" provider-name="lambda" >
+<addon id="plugin.video.genesis" name="Genesis"  version="5.1.5" provider-name="lambda" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -19,7 +19,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.16" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.17" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="2.2.0"/>
@@ -87,7 +87,7 @@
 
 <addon id="plugin.video.aftershock"
        name="Aftershock (Indian Movies/TVShows/Live)"
-       version="3.3.1"
+       version="3.4.0"
        provider-name="IDev">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -103,12 +103,12 @@
     </extension>
     <extension point="xbmc.addon.metadata">
     <summary lang="en">Watch Hindi Movies &amp; TV Shows</summary>
-    <description lang="en">Addon based on GENESIS framework by lambda to browse and play a wide selection of Desi Movies, TV Shows and Live Streams. The author doesn't have any affiliation with the content providers.</description>
+    <description lang="en">Addon based on GENESIS framework by lambda to browse and play a wide selection of Desi Movies, TV Shows and Live Streams. The author doesn't have any affiliation with the content providers nor uploads any content to the providers.</description>
     <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
     <platform>all</platform>
-    	<forum>https://forums.tvaddons.ag/addon-releases/41405-aftershock-video-addon-indian-movies-tv.html</forum>
-    	<website>https://forums.tvaddons.ag/addon-releases/41405-aftershock-video-addon-indian-movies-tv.html</website>
-    </extension>
+    <forum>https://forums.tvaddons.ag/addon-releases/41405-aftershock-video-addon-indian-movies-tv.html</forum>
+	<website>https://forums.tvaddons.ag/addon-releases/41405-aftershock-video-addon-indian-movies-tv.html</website>
+  </extension>
 </addon>
 
 <addon id="plugin.video.bbciplayer" name="BBC iPlayer" version="0.2.1" provider-name="Mikey1234">
@@ -392,7 +392,7 @@ YouTube</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.castaway" name="Castaway" version="0.1.1" provider-name="natko1412">
+<addon id="plugin.video.castaway" name="Castaway" version="0.1.2" provider-name="natko1412">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -458,7 +458,7 @@ YouTube</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.tvondesizonexl" name="TV on DESI ZONE (Indian TV Shows)" version="2.8.7"
+<addon id="plugin.video.tvondesizonexl" name="TV on DESI ZONE (Indian TV Shows)" version="2.8.8"
 	provider-name="ajdeveloped/jchirag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
@@ -681,7 +681,7 @@ YouTube</description>
 
 <addon id="script.module.liveresolver" 
      name="LiveResolver" 
-     version="0.1.25" 
+     version="0.1.26" 
      provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -697,10 +697,10 @@ YouTube</description>
   </extension>
 </addon>
 
-<addon id="plugin.program.super.favourites" name="Super Favourites" version="1.0.48.1" provider-name="spoyser">
+<addon id="plugin.program.super.favourites" name="Super Favourites" version="1.0.49.2" provider-name="spoyser">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.metahandler" optional="true" />
+    <import addon="script.module.metahandler" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
@@ -716,13 +716,7 @@ YouTube</description>
     <website></website>
     <source>https://github.com/spoyser/spoyser-repo/tree/master/plugin.program.super.favourites</source>
     <email>seanpoyser at gmail.com</email>
-  </extension>  
-  <extension point="kodi.context.item" library="capture.py">	
-      <item>
-        <label>30000</label>
-        <visible>!IsEmpty(Window(10000).Property(SF_STD_CONTEXTMENU_ENABLED))</visible>					
-      </item>
-    </extension>
+  </extension>
 </addon>
 
 <addon id="skin.amber.mod" version="2.1.2" name="AmberMod" provider-name="Pecinko, Jester">
