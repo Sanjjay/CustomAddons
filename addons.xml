@@ -558,8 +558,8 @@ YouTube</description>
 </addon>
 
 <addon id="plugin.video.ZemTV-shani"
-       name="ZemTV (Indian Live TV)"
-       version="4.6.5"
+       name="ZemTV.com (Indian Live TV)"
+       version="4.6.6"
        provider-name="shani">
   <requires>
     	<import addon="xbmc.python" version="2.1.0"/>
@@ -567,7 +567,7 @@ YouTube</description>
 	<import addon="plugin.video.youtube" version="2.9.2" optional="true"/>
     	<import addon="script.module.simplejson" version="3.3.0"/>
        	<import addon="script.module.elementtree" version="1.2.8"/>
-    	<import addon="plugin.video.f4mTester" version="2.2.3"/>
+    	<import addon="plugin.video.f4mTester" version="2.2.3" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
@@ -579,7 +579,7 @@ YouTube</description>
     <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
     <forum>https://forums.tvaddons.ag/shanis-addon-repository/</forum>
     <email>@shani_08_kodi</email>
-    <platform>all</platform>   
+    <platform>all</platform> 
   </extension>
 </addon>
 
@@ -719,11 +719,11 @@ YouTube</description>
   </extension>
 </addon>
 
-<addon id="skin.amber.mod" version="2.1.2" name="AmberMod" provider-name="Pecinko, Jester">
+<addon id="skin.amber.mod" version="2.2.4" name="AmberMod" provider-name="Jester, Pecinko">
   <requires>
     <import addon="xbmc.gui" version="5.10.0"/>
     <import addon="script.favourites" version="6.0.3"/>
-    <import addon="service.skin.widgets" version="0.0.31"/>
+    <import addon="service.skin.widgets" version="0.0.32"/>
     <import addon="resource.uisounds.amber" version="1.0.0"/>
   </requires>
   <extension
@@ -731,11 +731,12 @@ YouTube</description>
     <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">No bloatware, just your media with an easy to navigate interface</summary>
-    <description lang="en">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.
-    </description>
-        <platform>all</platform>
+    <summary lang="en_GB">No bloatware, just your media with an easy to navigate interface</summary>
+    <description lang="en_GB">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
+    <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+    <forum>http://forum.kodi.tv/forumdisplay.php?fid=203</forum>
+    <source>https://github.com/jester-xbmc/skin.amber</source>
   </extension>
 </addon>
 
