@@ -19,7 +19,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.17" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.20" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="2.2.0"/>
@@ -52,7 +52,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="1.1.1" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="1.2.0" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.exodus.artwork" version="1.0.0" />
@@ -71,7 +71,7 @@
 	</extension>
 </addon>
 
-<addon id="script.exodus.artwork" version="1.0.0" name="Exodus Artwork" provider-name="l*m*d*">
+<addon id="script.exodus.artwork" version="1.0.1" name="Exodus Artwork" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
@@ -87,7 +87,7 @@
 
 <addon id="plugin.video.aftershock"
        name="Aftershock (Indian Movies/TVShows/Live)"
-       version="3.4.0"
+       version="3.5.0"
        provider-name="IDev">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -234,7 +234,7 @@ YouTube</description>
 </addon>
 
 <addon id="plugin.video.sominaltv"
-  version="0.9.1.1"
+  version="0.9.1.2"
   name="Sominaltv (Indian Movies)"
   provider-name="Dknight">
   <requires>
@@ -254,7 +254,7 @@ YouTube</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.perfecthdmovies" version="0.0.4" name="Perfect HD Movies (Indian Movies)" provider-name="@MrEntertain">
+<addon id="plugin.video.perfecthdmovies" version="0.0.5" name="Perfect HD Movies (Indian Movies)" provider-name="@MrEntertain">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.TheYid.common" version="0.1.1"/>
@@ -286,12 +286,12 @@ YouTube</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="2.8.9" provider-name="Blazetamer">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.0.1" provider-name="Blazetamer">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
 		<import addon="script.module.urlresolver" version="2.10.11"/>
-		<import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="script.module.liveresolver" version="0.1.24"/>
 		<import addon="plugin.video.youtube" optional="true" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
@@ -299,7 +299,7 @@ YouTube</description>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Phoenix</summary>
-		<description lang="en">Discover Great Streaming Playlists Exclusive to Kodi, Please visit www.tvaddons.ag for help and support!</description>
+		<description lang="en">Discover Great Streaming Playlists, Please visit www.tvaddons.ag for help and support!</description>
 		<platform>all</platform>
 		<forum>http://forums.tvaddons.ag/forums/220-PHOENIX-LIVE-STREAMS</forum>
 		<website>http://www.tvaddons.ag/</website>
@@ -392,17 +392,14 @@ YouTube</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.castaway" name="Castaway" version="0.1.2" provider-name="natko1412">
+<addon id="plugin.video.castaway" name="Castaway" version="0.1.3" provider-name="natko1412">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
 		<import addon="script.module.requests"  />
-		<import addon="script.module.mechanize"  />
     		<import addon="script.module.addon.common" />
 		<import addon="script.module.urlresolver" />
 		<import addon="script.module.liveresolver"  />
-		<import addon="script.module.pyxbmct" version="1.1.4"/>
-		<import addon="script.module.youtube.dl" version="15.318.0"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -494,7 +491,7 @@ YouTube</description>
 </addon>
 
 <addon id="plugin.video.filmibynaturex" name="Filmi BY NATURE (Indian Movies)"
-	version="2.5.7.1" provider-name="AJ">
+	version="2.5.7.2" provider-name="AJ">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.simplejson" version="2.0.10" />
@@ -503,7 +500,7 @@ YouTube</description>
 		<import addon="script.module.metahandler" />
 		<import addon="script.module.requests" />
 	</requires>
-	<extension point="xbmc.python.pluginsource" library="TurtleMain.py">
+	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -559,7 +556,7 @@ YouTube</description>
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com (Indian Live TV)"
-       version="4.6.6"
+       version="4.6.9"
        provider-name="shani">
   <requires>
     	<import addon="xbmc.python" version="2.1.0"/>
@@ -579,7 +576,7 @@ YouTube</description>
     <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
     <forum>https://forums.tvaddons.ag/shanis-addon-repository/</forum>
     <email>@shani_08_kodi</email>
-    <platform>all</platform> 
+    <platform>all</platform>        
   </extension>
 </addon>
 
@@ -644,20 +641,17 @@ YouTube</description>
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" 
-     name="URLResolver" 
-     version="2.10.12" 
-     provider-name="Eldorado">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.t0mm0.common" version="2.0.0"/>
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
-    <description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>    
-  </extension>
+<addon id="script.module.urlresolver" name="URLResolver" version="2.10.13~beta7" provider-name="Eldorado">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.python.pluginsource" library="default.py" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+	</extension>
 </addon>
 
 <addon id="service.playitx" name="PlayIt" version="0.6.3"
@@ -681,7 +675,7 @@ YouTube</description>
 
 <addon id="script.module.liveresolver" 
      name="LiveResolver" 
-     version="0.1.26" 
+     version="0.1.27" 
      provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
