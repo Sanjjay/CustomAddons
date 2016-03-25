@@ -323,7 +323,7 @@ YouTube</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.perfecthdmovies" version="0.0.5.1" name="Perfect HD Movies (Indian Movies)" provider-name="@MrEntertain">
+<addon id="plugin.video.perfecthdmovies" version="0.0.5.2" name="Perfect HD Movies (Indian Movies)" provider-name="@MrEntertain">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.TheYid.common" version="0.1.1"/>
