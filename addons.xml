@@ -133,7 +133,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.theroyalwe" name="The Royal We" provider-name="DudeHere" version="0.9.12">
+<addon id="plugin.video.theroyalwe" name="The Royal We" provider-name="DudeHere" version="0.9.13">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.simplejson" />
@@ -158,7 +158,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.dudehere.routines" name="DudeHere Common Routines" provider-name="DudeHere" version="0.4.19">
+<addon id="script.module.dudehere.routines" name="DudeHere Common Routines" provider-name="DudeHere" version="0.4.20">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.addon.common" version="2.0.0" />
