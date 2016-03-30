@@ -19,7 +19,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.24" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.26" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="2.2.0"/>
@@ -38,7 +38,7 @@
     </extension>
 </addon>
 
-<addon id="script.salts.themepak" version="0.0.8" name="SALTS Themepak" provider-name="tknorris">
+<addon id="script.salts.themepak" version="0.0.9" name="SALTS Themepak" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -52,10 +52,10 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="1.2.1" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="1.2.2" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.exodus.artwork" version="1.0.0" />
+		<import addon="script.exodus.artwork" version="1.0.1" />
 		<import addon="script.module.urlresolver" version="1.0.0"/>
 		<import addon="script.module.metahandler" version="1.0.0" />
 		<import addon="plugin.video.youtube" optional="true" />
