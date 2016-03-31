@@ -19,7 +19,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.26" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.28" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="2.2.0"/>
@@ -87,7 +87,7 @@
 
 <addon id="plugin.video.aftershock"
        name="Aftershock (Indian Movies/TVShows/Live)"
-       version="3.5.0"
+       version="3.5.2"
        provider-name="IDev">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -730,7 +730,7 @@ YouTube</description>
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="2.10.13~beta9" provider-name="Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver" version="3.0.0" provider-name="Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
