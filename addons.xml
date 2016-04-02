@@ -645,7 +645,7 @@ YouTube</description>
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com (Indian Live TV)"
-       version="4.7.4"
+       version="4.7.5"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -653,7 +653,7 @@ YouTube</description>
     <import addon="plugin.video.youtube" version="2.9.2" optional="true"/>
     <import addon="script.module.simplejson" version="3.3.0"/>
     <import addon="script.module.elementtree" version="1.2.8"/>
-    <import addon="plugin.video.f4mTester" version="2.2.3" optional="true" />
+    <import addon="plugin.video.f4mTester" version="2.2.3"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
@@ -665,7 +665,7 @@ YouTube</description>
     <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
     <forum>https://forums.tvaddons.ag/shanis-addon-repository/</forum>
     <email>@shani_08_kodi</email>
-    <platform>all</platform>     
+    <platform>all</platform>        
   </extension>
 </addon>
 
