@@ -704,7 +704,7 @@ YouTube</description>
 
 <addon id="script.anyurl.player"
        name="AnyURL Player"
-       version="1.2.2"
+       version="1.3.1"
        provider-name="Violet">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
