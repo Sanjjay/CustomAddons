@@ -19,10 +19,10 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.28" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.29" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.urlresolver" version="2.2.0"/>
+        <import addon="script.module.urlresolver" version="3.0.0"/>
         <import addon="script.module.myconnpy" version="1.1.6" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
