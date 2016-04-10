@@ -851,7 +851,6 @@ YouTube</description>
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">No bloatware, just your media with an easy to navigate interface</summary>
     <description lang="en_GB">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
-    <description lang="pt_PT">Um tema sem excessos que apenas mostra a sua média com uma interface de navegação simples.[CR]Utiliza algumas texturas dos temas Mediastream e Aeon.</description>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
     <forum>http://forum.kodi.tv/forumdisplay.php?fid=203</forum>
