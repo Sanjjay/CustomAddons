@@ -180,7 +180,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.bbciplayer" name="BBC iPlayer     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.2.1" provider-name="Mikey1234">
+<addon id="plugin.video.bbciplayer" name="BBC iPlayer     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.2.2" provider-name="Mikey1234">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
