@@ -19,7 +19,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.32" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.33" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -727,12 +727,12 @@ YouTube</description>
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.0" provider-name="Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.1" provider-name="Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.python.pluginsource" library="default.py" />
+	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
 		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
