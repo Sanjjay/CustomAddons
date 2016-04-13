@@ -340,7 +340,7 @@ YouTube</description>
     </extension>
 </addon>
 
-<addon id="plugin.video.hevcbluray" version="0.0.4" name="HevcBluray     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="@MrEntertain">
+<addon id="plugin.video.hevcbluray" version="0.0.5" name="HevcBluray     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="@MrEntertain">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.TheYid.common" version="0.1.1"/>
@@ -642,7 +642,7 @@ YouTube</description>
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="4.7.6"
+       version="4.7.7"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
