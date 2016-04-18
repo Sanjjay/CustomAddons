@@ -372,7 +372,7 @@ YouTube</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.0.3" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.0.4" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
@@ -761,7 +761,7 @@ YouTube</description>
 
 <addon id="script.module.liveresolver" 
      name="LiveResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" 
-     version="0.1.29" 
+     version="0.1.30" 
      provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -858,11 +858,16 @@ YouTube</description>
   </extension>
 </addon>
 
-<addon id="repository.customaddons" name="Custom Addons Repository     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="0.0.1" provider-name="Custom Addons">
+<addon id="repository.customaddons" name="Custom Addons Repository     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="0.0.2" provider-name="Custom Addons">
 	<extension point="xbmc.addon.repository" name="Custom Addons Repository">
-		<info compressed="false">https://raw.githubusercontent.com/Sanjjay/CustomAddons/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Sanjjay/CustomAddons/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Sanjjay/CustomAddons/master/zips</datadir>
+	    <dir>
+		<info compressed="false">https://raw.githubusercontent.com/Sanjjay/CustomAddons/master/zips/plugin.video.exodus/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Sanjjay/CustomAddons/master/zips/plugin.video.exodus/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Sanjjay/CustomAddons/master/zips/plugin.video.exodus</datadir>
+	    </dir>
+	<info compressed="false">https://raw.githubusercontent.com/Sanjjay/CustomAddons/master/addons.xml</info>
+	<checksum>https://raw.githubusercontent.com/Sanjjay/CustomAddons/master/addons.xml.md5</checksum>
+	<datadir zip="true">https://raw.githubusercontent.com/Sanjjay/CustomAddons/master/zips</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install Custom Addons</summary>
