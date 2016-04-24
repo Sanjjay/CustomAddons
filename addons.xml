@@ -111,11 +111,12 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.velocity" version="1.0.6" name="Velocity     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Blazetamer">
+<addon id="plugin.video.velocity" version="1.0.7" name="Velocity     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Blazetamer">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver"  version="2.1.2"/>
-        <import addon="script.module.t0mm0.common" version="2.0.0"/>       
+        <import addon="script.module.t0mm0.common" version="2.0.0"/>
+        <import addon="script.module.autoupdate" version="2.0.0" />     
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
