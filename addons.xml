@@ -854,7 +854,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="skin.amber.mod" version="2.2.5" name="AmberMod     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Jester, Pecinko">
+<addon id="skin.amber.mod" version="2.2.7" name="AmberMod     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Jester, Pecinko">
   <requires>
     <import addon="xbmc.gui" version="5.10.0"/>
     <import addon="script.favourites" version="6.0.3"/>
