@@ -317,7 +317,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.perfecthdmovies" version="0.0.6" name="Perfect HD Movies     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" provider-name="@MrEntertain">
+<addon id="plugin.video.perfecthdmovies" version="0.0.7" name="Perfect HD Movies     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" provider-name="@MrEntertain">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.TheYid.common" version="0.1.1"/>
@@ -386,26 +386,26 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 	</extension>
 </addon>
 
-<addon id="plugin.video.cosmix" name="Cosmix     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="1.1.4" provider-name="Cosmix">
-    <requires>
-	<import addon="script.module.simplejson" version="3.3.0"/>
-        <import addon="script.module.t0mm0.common" version="2.0.0"/>
-	<import addon="xbmc.python" version="2.1.0" />
-	<import addon="script.module.pyxbmct" version="1.1.4" />
-	<import addon="script.module.urlresolver" version="3.0.0"/>
-	<import addon="script.module.liveresolver" version="0.1.24"/>
-	<import addon="plugin.video.youtube" optional="true" />
-	<import addon="script.common.plugin.cache" version="2.5.2"/>
-	<import addon="script.module.metahandler" version="2.5.1"/>	
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-	<provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Online TV from Everywhere.</summary>
-        <description lang="en">Videos found in this addon are not hosted or uploaded nor are we affiliated with the video content in any way. All video content is hosted by third party websites. In the case of possible copyright infringement please contact the responsible parties. Users who upload to these websites agree not to upload illegal content when creating their user accounts. We do not take responsibility for the content hosted on such third party websites.</description>
-        <platform>all</platform>
-    </extension>
+<addon id="plugin.video.cosmix" name="Cosmix     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="1.1.5" provider-name="Cosmix">
+	<requires>
+	    	<import addon="script.module.simplejson" version="3.3.0"/>
+        	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.liveresolver" version="0.1.24"/>
+		<import addon="plugin.video.youtube" optional="true" />
+        	<import addon="script.common.plugin.cache" version="2.5.2"/>
+        	<import addon="script.module.metahandler" version="2.5.1"/>	
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+    	<extension point="xbmc.addon.metadata">
+        	<summary lang="en">Online TV from Everywhere.</summary>
+        	<description lang="en">Videos found in this addon are not hosted or uploaded nor are we affiliated with the video content in any way. All video content is hosted by third party websites. In the case of possible copyright infringement please contact the responsible parties. Users who upload to these websites agree not to upload illegal content when creating their user accounts. We do not take responsibility for the content hosted on such third party websites.</description>
+        	<platform>all</platform>
+    	</extension>
 </addon>
 
 <addon id="plugin.video.NJMSoccer"
