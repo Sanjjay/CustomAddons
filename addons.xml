@@ -296,27 +296,6 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.sominaltv"
-  version="0.9.1.2"
-  name="Sominaltv     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-  provider-name="Dknight">
-  <requires>
-		<import addon="script.module.simplejson" />
-		<import addon="script.module.beautifulsoup" version="3.0.8"/>
-		<import addon="script.module.urlresolver"  version="0.0.1"/>
-		<import addon="script.module.t0mm0.common" version="1.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>sominaltv</summary>
-    <description>Watch sominaltv (indian) Videos</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.perfecthdmovies" version="0.0.7" name="Perfect HD Movies     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" provider-name="@MrEntertain">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -329,23 +308,6 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
     <extension point="xbmc.addon.metadata">
         <summary>movies</summary>
         <description>great for Hollywood Bollywood Regional Dubbed 1080p 720p movies with the best hosts.</description>
-        <platform>all</platform>
-        <disclaimer lang="en">All the movies on this website are hosted on the third party sites and uploaded by other people. We are not responsible for any content that hosted on on the third-party sites. If you have any legal issues please contact appropriate video owners hosters.</disclaimer>
-    </extension>
-</addon>
-
-<addon id="plugin.video.hevcbluray" version="0.0.5" name="HevcBluray     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="@MrEntertain">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.TheYid.common" version="0.1.1"/>
-        <import addon="script.module.urlresolver"  version="2.0.9"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>movies in 720p 1080p and 3D HEVC</summary>
-        <description>movies in 720p and 1080p and 3D.</description>
         <platform>all</platform>
         <disclaimer lang="en">All the movies on this website are hosted on the third party sites and uploaded by other people. We are not responsible for any content that hosted on on the third-party sites. If you have any legal issues please contact appropriate video owners hosters.</disclaimer>
     </extension>
@@ -366,7 +328,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.0.7" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.1.0" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
@@ -384,28 +346,6 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 		<forum>http://forums.tvaddons.ag/forums/220-PHOENIX-LIVE-STREAMS</forum>
 		<website>http://www.tvaddons.ag/</website>
 	</extension>
-</addon>
-
-<addon id="plugin.video.cosmix" name="Cosmix     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="1.1.7" provider-name="Cosmix">
-	<requires>
-	   	<import addon="script.module.simplejson" version="3.3.0"/>
-        	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.pyxbmct" version="1.1.4" />
-		<import addon="script.module.urlresolver" version="3.0.0"/>
-		<import addon="script.module.liveresolver" version="0.1.24"/>
-		<import addon="plugin.video.youtube" optional="true" />
-        	<import addon="script.common.plugin.cache" version="2.5.2"/>
-        	<import addon="script.module.metahandler" version="2.5.1"/>	
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-    	<extension point="xbmc.addon.metadata">
-        	<summary lang="en">Online TV from Everywhere.</summary>
-        	<description lang="en">Videos found in this addon are not hosted or uploaded nor are we affiliated with the video content in any way. All video content is hosted by third party websites. In the case of possible copyright infringement please contact the responsible parties. Users who upload to these websites agree not to upload illegal content when creating their user accounts. We do not take responsibility for the content hosted on such third party websites.</description>
-        	<platform>all</platform>
-    	</extension>
 </addon>
 
 <addon id="plugin.video.NJMSoccer"
@@ -462,7 +402,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.ukturk" name="UK Turk Playlists     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.0.0" provider-name="MetalKettle">
+<addon id="plugin.video.ukturk" name="UK Turk Playlists     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.0.3" provider-name="MetalKettle">
   <requires>
     <import addon="script.module.simplejson" version="3.3.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -482,7 +422,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.uktvnow" name="UKTV Now     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="2.0.2" provider-name="MetalKettle">
+<addon id="plugin.video.uktvnow" name="UKTV Now     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="2.0.4" provider-name="MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -498,7 +438,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ccloudtv"
        name="cCloud TV     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]"
-       version="1.4.7"
+       version="1.4.7d"
        provider-name="podgod, Coder Alpha">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -520,7 +460,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
     <summary>All the best from cCloud TV</summary>
     <description>cCloud is an open source cloud based social IPTV service. It is built by the community for the community, where streaming is just a click away. Just click, play and stream. Yes, it's that simple. Just go to http://ccloudtv.org  and enjoy:) Please report any channels that are down here http://www.tiny.cc/reportchs Users can now check servers status which can be found at http://ccloudtv.org/status
     </description>
-	<license>http://www.gnu.org/licenses/</license>
+    <license>http://www.gnu.org/licenses/</license>
     <forum>http://ccloudtv.org/forum</forum>
     <website>http://ccloudtv.org</website>
     <website>http://facebook.com/ccloudapp</website>
@@ -530,7 +470,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.castaway" name="Castaway     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.1.7.1" provider-name="natko1412">
+<addon id="plugin.video.castaway" name="Castaway     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.2.1" provider-name="natko1412">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -594,7 +534,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.tvondesizonexl" name="TV on DESI ZONE     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" version="2.8.9"
+<addon id="plugin.video.tvondesizonexl" name="TV on DESI ZONE     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" version="2.8.10"
 	provider-name="ajdeveloped/jchirag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
@@ -624,38 +564,6 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 			of lists. The websites that are parsed by this add-on are not owned or maintained by
 			ajdeveloped. This addon acts like a browser not content(video or link) provider.
 		</disclaimer>
-		<platform>all</platform>
-		<license>GNU GPL v3</license>
-	</extension>
-</addon>
-
-<addon id="plugin.video.filmibynaturex" name="Filmi BY NATURE     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-	version="2.5.7.2" provider-name="AJ">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.simplejson" version="2.0.10" />
-		<import addon="script.module.beautifulsoup" version="3.2.0" />
-		<import addon="script.module.turtlex"  version="1.8.2" />
-		<import addon="script.module.metahandler" />
-		<import addon="script.module.requests" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Watch Indian videos as seen on sominaltvfilms.com</summary>
-		<description>Watch videos as seen on sominaltvfilms.com</description>
-		<disclaimer>This addon makes no warranties, expressed or implied, and
-			hereby disclaims and negates all other warranties, including without
-			limitation, implied warranties or conditions of merchantability,
-			fitness for a particular purpose, or non-infringement of intellectual
-			property or other violation of rights. Further, FILMI by NATURE addon
-			does not warrant or make any representations concerning the accuracy,
-			likely results, or reliability of the use of the materials on the
-			Internet web site where from data is retrieved or otherwise relating
-			to such materials or on any sites linked to this addon. Videos are
-			soruced from video-hosting websites that are having full rights to
-			remove such access to video if required.</disclaimer>
 		<platform>all</platform>
 		<license>GNU GPL v3</license>
 	</extension>
@@ -695,7 +603,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="4.8.2"
+       version="4.8.5"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -703,7 +611,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
     <import addon="plugin.video.youtube" version="2.9.2" optional="true"/>
     <import addon="script.module.simplejson" version="3.3.0"/>
     <import addon="script.module.elementtree" version="1.2.8"/>
-    <import addon="plugin.video.f4mTester" version="2.2.3"/>
+    <import addon="plugin.video.f4mTester" version="2.2.3" />
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
@@ -715,7 +623,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
     <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
     <forum>https://forums.tvaddons.ag/shanis-addon-repository/</forum>
     <email>@shani_08_kodi</email>
-    <platform>all</platform>      
+    <platform>all</platform>   
   </extension>
 </addon>
 
@@ -736,14 +644,15 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="script.video.F4mProxy" 
 	     name="F4mProxy      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" 
-	     version="2.4.5" 
+	     version="2.5.0" 
 	     provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.requests" />
   </requires>
   <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>executable</provides>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
@@ -780,7 +689,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.6" provider-name="Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.11" provider-name="Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -815,7 +724,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="script.module.liveresolver" 
      name="LiveResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" 
-     version="0.1.35" 
+     version="0.1.36" 
      provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -853,28 +762,28 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.meta" name="Meta     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="1.1.4" provider-name="MetaTeam">
+<addon id="plugin.video.meta" name="Meta     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="1.1.5" provider-name="MetaTeam">
   <requires>
     <import addon="xbmc.python" version="2.20.0"/>
     <import addon="script.module.requests"/>
     <import addon="script.module.futures" version="2.2.0"/>
-  </requires>
+  </requires>  
   <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>video</provides>
-  </extension> 
+  </extension>  
   <extension point="xbmc.service" library="service.py" start="[login|startup]">
-  </extension>
+  </extension>  
   <extension point="kodi.context.item" library="context_playable.py">
     <provides>executable</provides>	
       <item>
-        <label>$ADDON[plugin.video.meta 31002]</label>
+        <label>$ADDON[plugin.video.meta 30602]</label>
         <visible>!System.HasAddon(context.meta) + [StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,episode)] + SubString(ListItem.FileNameAndPath, plugin.video.meta)</visible>
       </item>
   </extension>
   <extension point="kodi.context.item" library="context_tvshow.py">
     <provides>executable</provides>	
       <item>
-        <label>$ADDON[plugin.video.meta 31022]</label>
+        <label>$ADDON[plugin.video.meta 30622]</label>
         <visible>StringCompare(ListItem.dbtype,tvshow) + SubString(ListItem.Path, plugin.video.meta)</visible>
       </item>
   </extension>
