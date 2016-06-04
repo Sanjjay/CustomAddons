@@ -111,75 +111,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.velocity" version="1.0.7" name="Velocity     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Blazetamer">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.urlresolver"  version="2.1.2"/>
-        <import addon="script.module.t0mm0.common" version="2.0.0"/>     
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Stream Videos from multiple sources</summary>
-        <description>Stream Videos from multiple sources via Information obtained from Trakt.tv, and or your Trakt Account</description>
-        <disclaimer>The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
-        <language>en</language>
-        <platform>all</platform>
-        <forum>https://forums.tvaddons.ag/blazetamer-s-repository/39658-velocity-20.html</forum>
-        <website>https://offshoregit.com/Blazetamer/velocity.html</website>
-        <source></source>
-        <email></email>
-    </extension>
-</addon>
-
-<addon id="plugin.video.theroyalwe" name="The Royal We     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="DudeHere" version="0.9.17">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0" />
-        <import addon="script.module.simplejson" />
-        <import addon="script.module.beautifulsoup" />
-        <import addon="script.module.addon.common" />
-        <import addon="script.module.dudehere.routines" />
-        <import addon="script.module.metahandler" />
-        <import addon="script.module.myconnpy" />
-        <import addon="script.module.urlresolver" />
-    </requires>
-    <extension library="default.py" point="xbmc.python.pluginsource">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <language />
-        <summary>The Royal We is about simplicity and sources.</summary>
-        <description>The Royal We is getting better then ever. It&apos;s all about simplicity and lots of sources. No settings. No configuration (except for a Trakt.tv account if you have one).</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <forum>http://forums.tvaddons.ag/dudehere-addons/</forum>
-        <website>http://www.tvaddons.ag/</website>
-    </extension>
-</addon>
-
-<addon id="script.module.dudehere.routines" name="DudeHere Common Routines     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="DudeHere" version="0.4.22">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0" />
-        <import addon="script.module.addon.common" version="2.0.0" />
-    </requires>
-    <extension library="lib" point="xbmc.python.module" />
-    <extension library="service.py" point="xbmc.service" start="startup" />
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">Collection of commonly used addon routines</summary>
-        <description lang="en">Collection of commonly used addon routines used by DudeHere.</description>
-        <disclaimer lang="en" />
-        <language />
-        <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <forum>http://forums.tvaddons.ag/dudehere-addons/</forum>
-        <website>http://www.tvaddons.ag/</website>
-        <email />
-        <source />
-    </extension>
-</addon>
-
 <addon id="plugin.video.bbciplayer" name="BBC iPlayer     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.2.2" provider-name="Mikey1234">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -796,6 +727,63 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
       <content>tvshows</content>
       <content>episodes</content>
     </supportedcontent>	
+  </extension>
+</addon>
+
+<addon id="program.english" version="0.0.0.1" name="English     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="English">
+  <requires>
+	<import addon="plugin.program.super.favourites" />
+	<import addon="plugin.video.bbciplayer" />
+	<import addon="plugin.video.castaway" />
+	<import addon="plugin.video.ccloudtv" />
+	<import addon="plugin.video.exodus" />
+	<import addon="plugin.video.genesis" />
+	<import addon="plugin.video.itv" />
+	<import addon="plugin.video.NJMSoccer" />
+	<import addon="plugin.video.phstreams" />
+	<import addon="plugin.video.salts" />
+	<import addon="plugin.video.SportsDevil" />
+	<import addon="plugin.video.ukturk" />
+	<import addon="plugin.video.youtube" />
+	<import addon="script.exodus.artwork" />
+	<import addon="script.salts.themepak" />
+	<import addon="script.module.liveresolver" />
+	<import addon="script.module.urlresolver" />
+	<import addon="script.anyurl.player" />
+	<import addon="service.playitx" />
+	<import addon="skin.amber.mod" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>English</summary>
+    <description>English</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="program.indian" version="0.0.0.1" name="Indian     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" provider-name="Indian">
+  <requires>
+	<import addon="plugin.video.aftershock" />
+	<import addon="plugin.video.bharatmovies" />
+	<import addon="plugin.video.einthusan" />
+	<import addon="plugin.video.india4movie" />
+	<import addon="plugin.video.movierulz" />
+	<import addon="plugin.video.perfecthdmovies" />
+	<import addon="plugin.video.tvondesizonexl" />
+	<import addon="plugin.video.ZemTV-shani" />
+	<import addon="service.playitx" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Indian</summary>
+    <description>Indian</description>
+    <platform>all</platform>
   </extension>
 </addon>
 
