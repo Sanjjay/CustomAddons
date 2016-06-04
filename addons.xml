@@ -751,7 +751,9 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 	<import addon="script.module.urlresolver" />
 	<import addon="script.anyurl.player" />
 	<import addon="service.playitx" />
-	<import addon="skin.amber.mod" />
+	<import addon="service.subtitles.opensubtitles" />
+	<import addon="service.subtitles.subscene" />
+	<import addon="service.subtitles.podnapisi" />
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
@@ -775,6 +777,9 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 	<import addon="plugin.video.tvondesizonexl" />
 	<import addon="plugin.video.ZemTV-shani" />
 	<import addon="service.playitx" />
+	<import addon="service.subtitles.opensubtitles" />
+	<import addon="service.subtitles.subscene" />
+	<import addon="service.subtitles.podnapisi" />
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
