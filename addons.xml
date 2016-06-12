@@ -19,7 +19,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.50" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.55" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -368,7 +368,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ccloudtv"
        name="cCloud TV     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]"
-       version="1.4.7d"
+       version="1.4.7e"
        provider-name="podgod, Coder Alpha">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -390,7 +390,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
     <summary>All the best from cCloud TV</summary>
     <description>cCloud is an open source cloud based social IPTV service. It is built by the community for the community, where streaming is just a click away. Just click, play and stream. Yes, it's that simple. Just go to http://ccloudtv.org  and enjoy:) Please report any channels that are down here http://www.tiny.cc/reportchs Users can now check servers status which can be found at http://ccloudtv.org/status
     </description>
-    <license>http://www.gnu.org/licenses/</license>
+	<license>http://www.gnu.org/licenses/</license>
     <forum>http://ccloudtv.org/forum</forum>
     <website>http://ccloudtv.org</website>
     <website>http://facebook.com/ccloudapp</website>
@@ -400,7 +400,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.castaway" name="Castaway     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.2.1" provider-name="natko1412">
+<addon id="plugin.video.castaway" name="Castaway     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.2.4" provider-name="natko1412">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -408,7 +408,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 		<import addon="script.module.mechanize"  />
     		<import addon="script.module.addon.common" />
 		<import addon="script.module.urlresolver" />
-		<import addon="script.module.liveresolver"  />
+		<import addon="script.module.liveresolver"  />   	
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -417,7 +417,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 		<summary lang="en">Just a castaway.</summary>
 		<description lang="en">Visit TVADDONS.ag for support.
 		</description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>	
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>		
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -533,7 +533,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="4.8.5"
+       version="4.8.7"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -553,7 +553,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
     <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
     <forum>https://forums.tvaddons.ag/shanis-addon-repository/</forum>
     <email>@shani_08_kodi</email>
-    <platform>all</platform>   
+    <platform>all</platform>       
   </extension>
 </addon>
 
@@ -619,7 +619,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.11" provider-name="Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.13" provider-name="Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -654,7 +654,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="script.module.liveresolver" 
      name="LiveResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" 
-     version="0.1.36" 
+     version="0.1.40" 
      provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
