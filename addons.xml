@@ -19,7 +19,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.57" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.58" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -28,7 +28,7 @@
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
-     <extension point="xbmc.service" library="service.py" start="startup"/>
+    	<extension point="xbmc.service" library="service.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
         <summary>Stream video from many difference sources</summary>
         <description>This addon uses trakt.tv for most show and movie meta data and uses a variety of websites for hoster sources</description>
@@ -38,13 +38,11 @@
     </extension>
 </addon>
 
-<addon id="script.salts.themepak" version="0.0.10.1" name="SALTS Themepak     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
+<addon id="script.salts.themepak" version="0.0.11" name="SALTS Themepak     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
-    <extension point="xbmc.python.script" library="default.py">
-        <provides>executable</provides>
-    </extension>
+    <extension point="xbmc.python.module"/>
     <extension point="xbmc.addon.metadata">
         <summary>Themes for the SALTS Addon</summary>
         <description>Themes for SALTS are maintained separately to make distribution of the the addon itself easier/faster.</description>
@@ -87,7 +85,7 @@
 
 <addon id="plugin.video.aftershock"
        name="Aftershock     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="3.7.2"
+       version="3.7.3"
        provider-name="IDev">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -102,13 +100,13 @@
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-    <summary lang="en">Watch Hindi Movies &amp; TV Shows</summary>
-    <description lang="en">Addon based on GENESIS framework by lambda to browse and play a wide selection of Desi Movies, TV Shows and Live Streams. The author doesn't have any affiliation with the content providers nor uploads any content to the providers.</description>
-    <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-    <platform>all</platform>
-    <forum>https://forums.tvaddons.ag/addon-releases/41405-aftershock-video-addon-indian-movies-tv.html</forum>
-    <website>https://forums.tvaddons.ag/addon-releases/41405-aftershock-video-addon-indian-movies-tv.html</website>
-  </extension>
+    	<summary lang="en">Watch Hindi Movies &amp; TV Shows</summary>
+    	<description lang="en">Addon based on GENESIS framework by lambda to browse and play a wide selection of Desi Movies, TV Shows and Live Streams. The author doesn't have any affiliation with the content providers nor uploads any content to the providers.</description>
+    	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+    	<platform>all</platform>
+    	<forum>https://forums.tvaddons.ag/addon-releases/41405-aftershock-video-addon-indian-movies-tv.html</forum>
+    	<website>https://forums.tvaddons.ag/addon-releases/41405-aftershock-video-addon-indian-movies-tv.html</website>
+    </extension>
 </addon>
 
 <addon id="plugin.video.bbciplayer" name="BBC iPlayer     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.2.2" provider-name="Mikey1234">
