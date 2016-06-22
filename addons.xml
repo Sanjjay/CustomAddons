@@ -19,7 +19,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.58" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.60" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -28,7 +28,7 @@
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
-    	<extension point="xbmc.service" library="service.py" start="startup"/>
+     <extension point="xbmc.service" library="service.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
         <summary>Stream video from many difference sources</summary>
         <description>This addon uses trakt.tv for most show and movie meta data and uses a variety of websites for hoster sources</description>
@@ -38,11 +38,11 @@
     </extension>
 </addon>
 
-<addon id="script.salts.themepak" version="0.0.11" name="SALTS Themepak     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
+<addon id="script.salts.themepak" version="0.0.12" name="SALTS Themepak     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
     <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="kodi.resource" version="1.0.0"/>
     </requires>
-    <extension point="xbmc.python.module"/>
+    <extension point="kodi.resource.images" compile="false" type="themepak" />
     <extension point="xbmc.addon.metadata">
         <summary>Themes for the SALTS Addon</summary>
         <description>Themes for SALTS are maintained separately to make distribution of the the addon itself easier/faster.</description>
@@ -531,7 +531,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="4.8.9"
+       version="4.9.1"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -551,11 +551,11 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
     <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
     <forum>https://forums.tvaddons.ag/shanis-addon-repository/</forum>
     <email>@shani_08_kodi</email>
-    <platform>all</platform>      
+    <platform>all</platform>       
   </extension>
 </addon>
 
-<addon id="plugin.video.f4mTester" version="2.2.4" name="f4mTester      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" provider-name="Shani">
+<addon id="plugin.video.f4mTester" version="2.2.5" name="f4mTester      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.video.F4mProxy" version="2.2.3"/>
@@ -572,7 +572,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="script.video.F4mProxy" 
 	     name="F4mProxy      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" 
-	     version="2.5.1" 
+	     version="2.5.5" 
 	     provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -652,7 +652,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="script.module.liveresolver" 
      name="LiveResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" 
-     version="0.1.41" 
+     version="0.1.42" 
      provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
