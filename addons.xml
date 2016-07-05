@@ -33,7 +33,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.61" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.66" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -123,7 +123,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.bbciplayer" name="BBC iPlayer     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.2.2" provider-name="Mikey1234">
+<addon id="plugin.video.bbciplayer" name="BBC iPlayer     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.2.5" provider-name="Mikey1234">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -547,7 +547,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="4.9.2"
+       version="4.9.6"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
