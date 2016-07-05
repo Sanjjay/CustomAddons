@@ -19,7 +19,7 @@
 	</extension>
 </addon>
 
-<addon id="script.genesis.media" version="1.0.0" name="Genesis Themepak     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Genesis" >
+<addon id="script.genesis.themepak" version="1.0.0" name="Genesis Themepak     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Genesis" >
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
