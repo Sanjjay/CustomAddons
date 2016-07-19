@@ -35,7 +35,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.69" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.72" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -415,7 +415,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.castaway" name="Castaway     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.2.6.1" provider-name="natko1412">
+<addon id="plugin.video.castaway" name="Castaway     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.2.7" provider-name="natko1412">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -423,7 +423,6 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
     		<import addon="script.module.addon.common" />
 		<import addon="script.module.urlresolver" />
 		<import addon="script.module.liveresolver"  />
-		<import addon="script.module.livestreamer" />		
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -432,7 +431,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 		<summary lang="en">Just a castaway.</summary>
 		<description lang="en">Visit TVADDONS.ag for support.
 		</description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>	
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>		
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -479,7 +478,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.tvondesizonexl" name="TV on DESI ZONE     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" version="2.8.10"
+<addon id="plugin.video.tvondesizonexl" name="TV on DESI ZONE     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" version="2.8.11"
 	provider-name="ajdeveloped/jchirag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
@@ -669,7 +668,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="script.module.liveresolver" 
      name="LiveResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" 
-     version="0.1.45" 
+     version="0.1.46" 
      provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
