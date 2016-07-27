@@ -35,11 +35,12 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.72" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.75" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
         <import addon="script.module.myconnpy" version="1.1.6" />
+        <import addon="script.module.tknorris.shared" version="0.0.1"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -64,6 +65,17 @@
         <description>Themes for SALTS are maintained separately to make distribution of the the addon itself easier/faster.</description>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.0.1" provider-name="tknorris">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Reusable Modules used by several of tknorris's addons</summary>
+	</extension>
 </addon>
 
 <addon id="plugin.video.exodus" version="1.3.7" name="Exodus      [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Exodus">
@@ -294,11 +306,11 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.NJMSoccer"
        name="NJM-Soccer     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]"
-       version="3.0.9"
+       version="3.0.11"
        provider-name="Ares Team">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
@@ -324,7 +336,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2016.06.20"
+  version="2016.07.20"
   name="SportsDevil     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]"
   provider-name="SportsDevil">
   <requires>
@@ -415,7 +427,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.castaway" name="Castaway     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.2.7" provider-name="natko1412">
+<addon id="plugin.video.castaway" name="Castaway     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.2.8" provider-name="natko1412">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -423,6 +435,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
     		<import addon="script.module.addon.common" />
 		<import addon="script.module.urlresolver" />
 		<import addon="script.module.liveresolver"  />
+		<import addon="script.module.livestreamer" />    	
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -633,7 +646,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.14" provider-name="Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.15" provider-name="Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -668,7 +681,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="script.module.liveresolver" 
      name="LiveResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" 
-     version="0.1.46" 
+     version="0.1.48" 
      provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
