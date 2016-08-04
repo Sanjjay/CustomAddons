@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.genesis" name="Genesis     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]"  version="5.1.6.4" provider-name="lambda" >
+<addon id="plugin.video.genesis" name="Genesis     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]"  version="5.1.6.5" provider-name="lambda" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -35,12 +35,12 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.78" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.80" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
         <import addon="script.module.myconnpy" version="1.1.6" />
-        <import addon="script.module.tknorris.shared" version="0.0.1"/>
+        <import addon="script.module.tknorris.shared" version="0.0.2"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -67,7 +67,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.0.1" provider-name="tknorris">
+<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.0.2" provider-name="tknorris">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -558,7 +558,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="4.9.8"
+       version="5.0.0"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -578,7 +578,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
     <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
     <forum>https://forums.tvaddons.ag/shanis-addon-repository/</forum>
     <email>@shani_08_kodi</email>
-    <platform>all</platform>        
+    <platform>all</platform>
   </extension>
 </addon>
 
@@ -644,7 +644,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.16" provider-name="Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.16b" provider-name="Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
