@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.genesis" name="Genesis     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]"  version="5.1.6.6" provider-name="lambda" >
+<addon id="plugin.video.genesis" name="Genesis     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]"  version="5.1.6.7" provider-name="lambda" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -35,7 +35,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.83" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.85" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -304,13 +304,14 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.1.5" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.1.6" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
 		<import addon="script.module.urlresolver" version="3.0.0"/>
 		<import addon="script.module.liveresolver" version="0.1.24"/>
-		<import addon="plugin.video.youtube" version="5.1.0" optional="true" />
+		<import addon="script.video.F4mProxy" version="2.2.3"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -322,6 +323,23 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 		<forum>http://forums.tvaddons.ag/forums/220-PHOENIX-LIVE-STREAMS</forum>
 		<website>http://www.tvaddons.ag/</website>
 	</extension>
+</addon>
+
+<addon id="plugin.video.footballrepeat" name="Football Repeat     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="1.1.1" provider-name="Origin">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver"  version="3.0.0"/>
+    <import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="en">Football Repeat</summary>
+	<description lang="en">An addon by origin for Replays</description>
+	<disclaimer lang="en">The author neither hosts or stores any content, the author has no affiliation with content hosts</disclaimer>
+	<platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="plugin.video.NJMSoccer"
@@ -354,13 +372,33 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
+<addon id="plugin.video.NJMLive"
+	   name="NJMLive     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]"
+	   version="1.0.1"
+	   provider-name="NJMSoccer-2uk3y-Kodim-Ares">
+  <requires>
+    <import addon="script.module.requests" version="1.0.0" />
+    <import addon="plugin.video.f4mTester" />
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.video.F4mProxy" version="2.2.3"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="njm.py">
+    	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon
   id="plugin.video.SportsDevil"
-  version="2016.07.20"
+  version="2016.08.22"
   name="SportsDevil     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]"
   provider-name="SportsDevil">
   <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
+   <import addon="xbmc.python" version="2.1.0"/>
    <import addon="script.module.simplejson" />
    <import addon="script.module.six" />
    <import addon="script.module.requests" />
@@ -372,6 +410,9 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
     library="default.py">
    <provides>video</provides>
   </extension>
+  <extension 
+      point="xbmc.python.script"
+      library="lib/livestreamerXBMCLocalProxy.py" />
   <extension point="xbmc.addon.metadata">
     <summary>Play videos of different sports streaming sites</summary>
     <description>Play videos of different sports streaming sites</description>
@@ -400,7 +441,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.uktvnow" name="UKTV Now     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="2.0.6" provider-name="MetalKettle">
+<addon id="plugin.video.uktvnow" name="UKTV Now     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="2.0.8" provider-name="MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -416,7 +457,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ccloudtv"
        name="cCloud TV     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]"
-       version="1.4.8"
+       version="1.4.9"
        provider-name="podgod, Coder Alpha">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -427,9 +468,11 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
     <import addon="script.module.httplib2" />
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />    
-  </requires>
+    <import addon="script.module.urlresolver"  version="3.0.0" optional="true"/>
+    <import addon="script.module.addon.common" />
+    <import addon="script.module.simplejson" version="2.0.10"/>  
+    <import addon="script.tvaddons.debug.log" optional="true" />     
+</requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
@@ -437,7 +480,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
     <summary>All the best from cCloud TV</summary>
     <description>cCloud is an open source cloud based social IPTV service. It is built by the community for the community, where streaming is just a click away. Just click, play and stream. Yes, it's that simple. Just go to [COLOR blue]http://ccloudtv.org[/COLOR] and enjoy:) Please report any channels that are down here [COLOR blue]http://www.tiny.cc/reportchs[/COLOR] Users can now check servers status which can be found at [COLOR blue]http://ccloudtv.org/status[/COLOR]
     </description>
-	<license>http://www.gnu.org/licenses/</license>
+    <license>http://www.gnu.org/licenses/</license>
     <forum>http://ccloudtv.org/forum</forum>
     <website>http://ccloudtv.org</website>
     <website>http://facebook.com/ccloudapp</website>
@@ -580,7 +623,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="5.0.4"
+       version="5.0.7"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -666,7 +709,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.17" provider-name="Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.18" provider-name="Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
