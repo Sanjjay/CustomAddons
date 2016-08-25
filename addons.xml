@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.genesis" name="Genesis     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]"  version="5.1.6.7" provider-name="lambda" >
+<addon id="plugin.video.genesis" name="Genesis     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]"  version="5.1.6.8" provider-name="lambda" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -132,15 +132,15 @@
 
 <addon id="plugin.video.aftershock"
        name="Aftershock     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="3.7.4"
+       version="3.7.5"
        provider-name="IDev">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.urlresolver"  version="3.0.3"/>
+	<import addon="script.module.urlresolver"  version="3.0.0"/>
 	<import addon="script.module.metahandler"  version="2.9.0"/>
         <import addon="script.module.requests" version="2.9.1" />
 	<import addon="script.module.beautifulsoup" version="3.2.1"/>
-        <import addon="plugin.video.youtube" version="5.1.17"/>
+        <import addon="plugin.video.youtube" version="5.1.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource"
                library="default.py">
