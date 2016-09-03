@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.genesis" name="Genesis     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]"  version="5.1.6.8" provider-name="lambda" >
+<addon id="plugin.video.genesis" name="Genesis     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]"  version="5.1.6.9" provider-name="lambda" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -35,7 +35,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.85" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.86" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -78,7 +78,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="2.0.6" name="Exodus      [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.8" name="Exodus      [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.exodus.artwork" version="1.0.0" />
@@ -156,7 +156,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.bbciplayer" name="BBC iPlayer     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.2.5" provider-name="Mikey1234">
+<addon id="plugin.video.bbciplayer" name="BBC iPlayer     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.2.6" provider-name="Mikey1234">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -186,7 +186,7 @@
 
 <addon id="plugin.video.einthusan"
        name="Einthusan     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="1.3.2"
+       version="1.3.3"
        provider-name="humla">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -199,8 +199,7 @@
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <summary>Watch Hindi, Tamil  movies</summary>
-        <description>This XBMC plugin allows to watch Hindi and Tamil movies from Einthusan.com. Please support them.
-        Credits to suriya222 for the thumbnails.</description>
+        <description>This XBMC plugin allows to watch Hindi and Tamil movies from Einthusan.com. Please support them. Credits to suriya222 for the thumbnails.</description>
     </extension>
 </addon>
 
@@ -304,7 +303,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.1.6" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.1.8" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -325,7 +324,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 	</extension>
 </addon>
 
-<addon id="plugin.video.footballrepeat" name="Football Repeat     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="1.1.1" provider-name="Origin">
+<addon id="plugin.video.footballrepeat" name="Football Repeat     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="1.1.21" provider-name="Origin">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.urlresolver"  version="3.0.0"/>
@@ -457,7 +456,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ccloudtv"
        name="cCloud TV     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]"
-       version="1.4.9"
+       version="1.5.0"
        provider-name="podgod, Coder Alpha">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -470,9 +469,8 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
     <import addon="plugin.video.youtube" />
     <import addon="script.module.urlresolver"  version="3.0.0" optional="true"/>
     <import addon="script.module.addon.common" />
-    <import addon="script.module.simplejson" version="2.0.10"/>  
-    <import addon="script.tvaddons.debug.log" optional="true" />     
-</requires>
+    <import addon="script.module.simplejson" version="2.0.10"/>      
+  </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
@@ -554,7 +552,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.tvondesizonexl" name="TV on DESI ZONE     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" version="2.8.11"
+<addon id="plugin.video.tvondesizonexl" name="TV on DESI ZONE     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" version="2.8.12"
 	provider-name="ajdeveloped/jchirag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
@@ -623,7 +621,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="5.0.7"
+       version="5.1.5"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -709,7 +707,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.18" provider-name="Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.19" provider-name="Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -817,6 +815,20 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
       <content>tvshows</content>
       <content>episodes</content>
     </supportedcontent>	
+  </extension>
+</addon>
+
+<addon id="plugin.program.SpeedTester.net" name="SpeedTester.net     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="1.0.2" provider-name="Twilight0">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">SpeedTester.net</summary>
+    <description lang="en">SpeedTester.net will give you accurate Internet speed-ping test results.</description>
+    <platform>all</platform>
   </extension>
 </addon>
 
