@@ -393,11 +393,11 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2016.09.06"
+  version="2016.09.09"
   name="SportsDevil     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]"
   provider-name="SportsDevil">
   <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
+   <import addon="xbmc.python" version="2.1.0"/>
    <import addon="script.module.simplejson" />
    <import addon="script.module.six" />
    <import addon="script.module.requests" />
@@ -617,7 +617,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="5.2.6"
+       version="5.2.7"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
