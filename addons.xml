@@ -78,7 +78,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="2.0.8" name="Exodus      [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.9" name="Exodus      [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.exodus.artwork" version="1.0.0" />
@@ -617,7 +617,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="5.2.7"
+       version="5.2.9"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
