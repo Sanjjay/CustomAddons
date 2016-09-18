@@ -67,7 +67,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.0.3" provider-name="tknorris">
+<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.0.4" provider-name="tknorris">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -251,14 +251,14 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon
   id="plugin.video.movierulz"
-  version="1.0.8"
+  version="1.0.9"
   name="Movierulz     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
   provider-name="Dknight">
   <requires>
-		<import addon="script.module.simplejson" />
-		<import addon="script.module.beautifulsoup" version="3.0.8"/>
-		<import addon="script.module.urlresolver"  version="0.0.1"/>
-		<import addon="script.module.t0mm0.common" version="1.1.0"/>
+	<import addon="script.module.simplejson" />
+	<import addon="script.module.beautifulsoup" version="3.0.8"/>
+	<import addon="script.module.urlresolver"  version="0.0.1"/>
+	<import addon="script.module.t0mm0.common" version="1.1.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
@@ -393,7 +393,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2016.09.09"
+  version="2016.09.16"
   name="SportsDevil     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]"
   provider-name="SportsDevil">
   <requires>
@@ -448,6 +448,23 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
     <description lang="en"></description>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.freeview" name="Freeview     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="1.1.0" provider-name="RayW1986">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.liveresolver"  version="0.1.0"/> 
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               	library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>UK Freeview Channels</summary>
+        <description>Watch a wide array of Freeview channels from official and legal sources. [B]THIS ADD-ON REQUIRES A VPN OUTSIDE OF THE UNITED KINGDOM.[/B] For help or more information please visit TVADDONS.ag</description>
+	<disclaimer lang="en">The author is not responsible for the media you find in this add-on.</disclaimer>
+    </extension>	
 </addon>
 
 <addon id="plugin.video.ccloudtv"
@@ -617,7 +634,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="5.3.0"
+       version="5.3.6"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -641,10 +658,10 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.f4mTester" version="2.2.5" name="f4mTester      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" provider-name="Shani">
+<addon id="plugin.video.f4mTester" version="2.5.6" name="f4mTester      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.video.F4mProxy" version="2.2.3"/>
+        <import addon="script.video.F4mProxy" version="2.0.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
@@ -658,7 +675,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="script.video.F4mProxy" 
 	     name="F4mProxy      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" 
-	     version="2.5.5" 
+	     version="2.5.6" 
 	     provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -673,6 +690,27 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
     <summary lang="en">Proxy for f4m</summary>
     <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
   </extension>
+</addon>
+
+<addon id="plugin.video.playthis"
+       name="PlayThis      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]"
+       version="2.2.5"
+       provider-name="anxdpanic">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.urlresolver" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="resources/lib/__run__.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Resolve and play url/file</summary>
+        <description lang="en">Will attempt to resolve and play the provided url/file location. Keeps a history of played urls for future use.[CR][CR]Artwork by @konsumer420</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    </extension>
+    <website>https://github.com/anxdpanic/plugin.video.playthis#playthis</website>
+    <source>https://github.com/anxdpanic/plugin.video.playthis</source>
 </addon>
 
 <addon id="script.anyurl.player"
