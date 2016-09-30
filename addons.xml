@@ -88,7 +88,7 @@
 </addon>
 
 
-<addon id="plugin.video.exodus" version="2.0.11" name="Exodus      [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.11.1" name="Exodus      [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.exodus.artwork" version="1.0.0" />
@@ -427,7 +427,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.ukturk" name="UK Turk Playlists     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.0.5" provider-name="MetalKettle">
+<addon id="plugin.video.ukturk" name="UK Turk Playlists     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.0.6" provider-name="MetalKettle">
   <requires>
     <import addon="script.module.simplejson" version="3.3.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -645,7 +645,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="5.5.0"
+       version="5.5.1"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -669,7 +669,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.f4mTester" version="2.5.6" name="f4mTester      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" provider-name="Shani">
+<addon id="plugin.video.f4mTester" version="2.5.7" name="f4mTester      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.video.F4mProxy" version="2.0.0"/>
@@ -686,7 +686,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="script.video.F4mProxy" 
 	     name="F4mProxy      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" 
-	     version="2.5.6" 
+	     version="2.5.8" 
 	     provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
