@@ -35,7 +35,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.91" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.93" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -48,7 +48,7 @@
      <extension point="xbmc.service" library="service.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
         <summary>Stream video from many difference sources</summary>
-        <description>This addon uses trakt.tv for most show and movie meta data and uses a variety of websites for hoster sources</description>
+        <description>This addon uses trakt.tv for most show and movie meta data and uses a variety of websites for hoster sources ***This addon is developed and supported at [COLOR blue]www.tvaddons.ag[/COLOR]***</description>
         <platform>all</platform>
         <website>http://tvaddons.ag/</website>
 	<forum>http://forums.tvaddons.ag/forums/180-TKNORRIS-RELEASE-REPOSITORY</forum>
@@ -76,7 +76,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.0.8" provider-name="tknorris">
+<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.0.9" provider-name="tknorris">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -88,7 +88,7 @@
 </addon>
 
 
-<addon id="plugin.video.exodus" version="2.0.11.1" name="Exodus      [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.12" name="Exodus      [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.exodus.artwork" version="1.0.0" />
@@ -142,7 +142,7 @@
 
 <addon id="plugin.video.aftershock"
        name="Aftershock     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="3.8.1"
+       version="4.0.1"
        provider-name="IDev">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -151,6 +151,7 @@
         <import addon="script.module.requests" version="2.9.1" />
 	<import addon="script.module.beautifulsoup" version="3.2.1"/>
         <import addon="plugin.video.youtube" version="5.1.0"/>
+        <import addon="script.aftershock.artwork" version="1.0.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource"
                library="default.py">
@@ -158,12 +159,24 @@
     </extension>
     <extension point="xbmc.addon.metadata">
     	<summary lang="en">Watch Hindi Movies &amp; TV Shows</summary>
-    	<description lang="en">Addon based on GENESIS framework by lambda to browse and play a wide selection of Desi Movies, TV Shows and Live Streams. The author doesn't have any affiliation with the content providers nor uploads any content to the providers.</description>
+    	<description lang="en">Addon to browse and play a wide selection of Desi Movies, TV Shows and Live Streams. The author doesn't have any affiliation with the content providers nor uploads any content to the providers.</description>
     	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
     	<platform>all</platform>
     	<forum>https://forums.tvaddons.ag/addon-releases/41405-aftershock-video-addon-indian-movies-tv.html</forum>
     	<website>https://forums.tvaddons.ag/addon-releases/41405-aftershock-video-addon-indian-movies-tv.html</website>
     </extension>
+</addon>
+
+<addon id="script.aftershock.artwork" version="1.0.0" name="Aftershock Artwork     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" provider-name="IDev">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the Aftershock Addon</summary>
+		<description>Themes for Aftershock are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="plugin.video.bbciplayer" name="BBC iPlayer     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.2.7" provider-name="Mikey1234">
@@ -313,7 +326,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.1.11" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.1.13" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -427,7 +440,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.ukturk" name="UK Turk Playlists     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.0.6" provider-name="MetalKettle">
+<addon id="plugin.video.ukturk" name="UK Turk Playlists     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.0.7" provider-name="MetalKettle">
   <requires>
     <import addon="script.module.simplejson" version="3.3.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -645,7 +658,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="5.5.4"
+       version="5.6.0"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -669,7 +682,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.f4mTester" version="2.5.7" name="f4mTester      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" provider-name="Shani">
+<addon id="plugin.video.f4mTester" version="2.6.2" name="f4mTester      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.video.F4mProxy" version="2.0.0"/>
@@ -686,7 +699,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="script.video.F4mProxy" 
 	     name="F4mProxy      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" 
-	     version="2.6.0" 
+	     version="2.6.2" 
 	     provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
