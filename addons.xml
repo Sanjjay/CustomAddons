@@ -35,7 +35,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.93" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.95" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -347,18 +347,19 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 	</extension>
 </addon>
 
-<addon id="plugin.video.footballrepeat" name="Football Repeat     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="1.1.21" provider-name="Origin">
+<addon id="plugin.video.footballrepeat" name="Football Repeat     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="1.1.5" provider-name="Origin">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.urlresolver"  version="3.0.0"/>
     <import addon="script.module.addon.common" />
+    <import addon="script.module.pyxbmct" version="1.1.4"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
 	<provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
 	<summary lang="en">Football Repeat</summary>
-	<description lang="en">An addon by origin for Replays</description>
+	<description lang="en">An addon by origin for Replays, freely sourced from the net</description>
 	<disclaimer lang="en">The author neither hosts or stores any content, the author has no affiliation with content hosts</disclaimer>
 	<platform>all</platform>
   </extension>
@@ -390,26 +391,6 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   <extension point="xbmc.addon.metadata">
     <summary lang="en"> Join us at http://ares-project.com/community/</summary>
     <description lang="en">Special Thank you to Hakamac for his code, and to Ares Team,Shadow Crew and Mettle Kettle for their support.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.NJMLive"
-	   name="NJMLive     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]"
-	   version="1.0.1"
-	   provider-name="NJMSoccer-2uk3y-Kodim-Ares">
-  <requires>
-    <import addon="script.module.requests" version="1.0.0" />
-    <import addon="plugin.video.f4mTester" />
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.video.F4mProxy" version="2.2.3"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="njm.py">
-    	<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary></summary>
-    <description></description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -658,7 +639,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="5.6.0"
+       version="5.6.1"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -886,6 +867,20 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   <extension point="xbmc.addon.metadata">
     <summary lang="en">SpeedTester.net</summary>
     <description lang="en">SpeedTester.net will give you accurate Internet speed-ping test results.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.program.ukcheck" name="UK Vehicle Check     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="1.0.0" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
     <platform>all</platform>
   </extension>
 </addon>
