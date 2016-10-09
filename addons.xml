@@ -326,7 +326,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.1.14" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.1.15" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -639,7 +639,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="5.6.2"
+       version="5.6.4"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -654,9 +654,9 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>ZemTV.tv Kodi Client. Visit TVADDONS.ag for support</summary>
-    <description>Watch ZemTV.com on your XBMC. This plugin fetches the video sources from ZemTV.com and play on XBMC compatible plateforms</description>
-    <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+    <summary>Zem Addon for sports and desi contents. Visit TVADDONS.ag for support</summary>
+    <description>Watch Sports and Desi contents on your XBMC. This plugin fetches the video sources from various platforms and locations</description>
+    <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with any of the content provider.</disclaimer>
     <forum>https://forums.tvaddons.ag/shanis-addon-repository/</forum>
     <email>@shani_08_kodi</email>
     <platform>all</platform>
