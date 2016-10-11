@@ -35,12 +35,12 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.95" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.96" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
         <import addon="script.module.myconnpy" version="1.1.6" />
-        <import addon="script.module.tknorris.shared" version="0.0.7"/>
+        <import addon="script.module.tknorris.shared" version="0.0.1"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -48,7 +48,10 @@
      <extension point="xbmc.service" library="service.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
         <summary>Stream video from many difference sources</summary>
-        <description>This addon uses trakt.tv for most show and movie meta data and uses a variety of websites for hoster sources ***This addon is developed and supported at [COLOR blue]www.tvaddons.ag[/COLOR]***</description>
+        <description>This addon uses trakt.tv for most show and movie meta data and uses a variety of websites for hoster sources
+
+***This addon is developed and supported at [COLOR blue]www.tvaddons.ag[/COLOR]***        
+        </description>
         <platform>all</platform>
         <website>http://tvaddons.ag/</website>
 	<forum>http://forums.tvaddons.ag/forums/180-TKNORRIS-RELEASE-REPOSITORY</forum>
@@ -76,7 +79,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.0.9" provider-name="tknorris">
+<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.0.10" provider-name="tknorris">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -639,7 +642,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="5.6.4"
+       version="5.6.5"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
