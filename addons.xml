@@ -35,7 +35,8 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.100" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.103" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
+    <requires>
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -642,7 +643,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="5.6.8"
+       version="5.7.0"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -683,7 +684,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="script.video.F4mProxy" 
 	     name="F4mProxy      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" 
-	     version="2.6.3" 
+	     version="2.6.4" 
 	     provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
