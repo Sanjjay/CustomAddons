@@ -145,12 +145,12 @@
 
 <addon id="plugin.video.aftershock"
        name="Aftershock     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="4.1.0"
+       version="4.2.0"
        provider-name="IDev">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.urlresolver"  version="3.0.0"/>
-	<import addon="script.module.metahandler"  version="2.9.0"/>
+	<import addon="script.module.metahandler"  version="1.0.0"/>
         <import addon="script.module.requests" version="2.9.1" />
 	<import addon="script.module.beautifulsoup" version="3.2.1"/>
         <import addon="plugin.video.youtube" version="5.1.0"/>
@@ -166,11 +166,11 @@
     	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
     	<platform>all</platform>
     	<forum>https://forums.tvaddons.ag/addon-releases/41405-aftershock-video-addon-indian-movies-tv.html</forum>
-    	<website>https://forums.tvaddons.ag/addon-releases/41405-aftershock-video-addon-indian-movies-tv.html</website>
+	<website>https://forums.tvaddons.ag/addon-releases/41405-aftershock-video-addon-indian-movies-tv.html</website>
     </extension>
 </addon>
 
-<addon id="script.aftershock.artwork" version="1.0.0" name="Aftershock Artwork     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" provider-name="IDev">
+<addon id="script.aftershock.artwork" version="1.1.0" name="Aftershock Artwork     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" provider-name="IDev">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
@@ -230,15 +230,15 @@
 </addon>
 
 <addon id="plugin.video.bharatmovies"
-  version="1.0.2.1"
   name="Bharatmovies     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-  provider-name="Dknight">
+  provider-name="Dknight"
+  version="1.0.3">
   <requires>
-		<import addon="script.module.simplejson" />
-		<import addon="script.module.beautifulsoup" version="3.0.8"/>
-		<import addon="script.module.urlresolver"  version="0.0.1"/>
-		<import addon="script.module.t0mm0.common" version="1.1.0"/>
-		<import addon="script.module.parsedom" version="0.9.1"/>
+	<import addon="script.module.simplejson" />
+	<import addon="script.module.beautifulsoup" version="3.0.8"/>
+	<import addon="script.module.urlresolver"  version="0.0.1"/>
+	<import addon="script.module.t0mm0.common" version="1.1.0"/>
+	<import addon="script.module.parsedom" version="0.9.1"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
@@ -749,7 +749,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.21" provider-name="Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.22" provider-name="Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -761,7 +761,6 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
 	</extension>
 </addon>
-
 
 <addon id="service.playitx" name="PlayIt     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="0.6.3"
 	provider-name="AJ">
