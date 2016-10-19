@@ -143,12 +143,13 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.zen" version="1.3.3" name=" Zen     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Zen">
+<addon id="plugin.video.zen" version="1.3.5" name=" Zen     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.zen.artwork" />
 		<import addon="script.module.urlresolver" version="3.0.0"/>
 		<import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="script.module.requests" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="zen.py">
 		<provides>video</provides>
@@ -159,7 +160,6 @@
 		<disclaimer lang="en">The Author does not host or share any content, nor is affiliated with the content providers.</disclaimer>
 		<platform>all</platform>
 		<website>http://schism-tv.net</website>
-		<news>Fix Providers - Added the ability to import your Tmdb List in the addon - Fixed small bug in cleantitles - Added HD Movies/tv provider - Clean Providers - Providers Fix Cleanup</news>
         	<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
@@ -683,7 +683,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="5.7.0"
+       version="5.7.2"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
