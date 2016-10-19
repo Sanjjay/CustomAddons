@@ -683,7 +683,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="5.7.2"
+       version="5.7.3"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -691,7 +691,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
     <import addon="plugin.video.youtube" version="2.9.2" optional="true"/>
     <import addon="script.module.simplejson" version="3.3.0"/>
     <import addon="script.module.elementtree" version="1.2.8"/>
-    <import addon="plugin.video.f4mTester" version="2.2.3" />
+    <import addon="plugin.video.f4mTester" />
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
