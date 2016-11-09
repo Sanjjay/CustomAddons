@@ -156,7 +156,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.zen" version="1.4.3" name="Zen     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Zen">
+<addon id="plugin.video.zen" version="1.4.4" name="Zen     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.zen.artwork" />
@@ -476,7 +476,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.ukturk" name="UK Turk Playlists     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.0.10" provider-name="MetalKettle">
+<addon id="plugin.video.ukturk" name="UK Turk Playlists     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.0.11" provider-name="MetalKettle">
   <requires>
     <import addon="script.module.simplejson" version="3.3.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
