@@ -156,7 +156,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.zen" version="1.4.4" name="Zen     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Zen">
+<addon id="plugin.video.zen" version="1.4.6" name="Zen     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.zen.artwork" />
@@ -200,7 +200,7 @@
 
 <addon id="plugin.video.aftershock"
        name="Aftershock     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="4.2.3"
+       version="4.2.4"
        provider-name="IDev">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -218,8 +218,8 @@
     	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
     	<platform>all</platform>
     	<forum>https://forums.tvaddons.ag/addon-releases/41405-aftershock-video-addon-indian-movies-tv.html</forum>
-	<website>https://forums.tvaddons.ag/addon-releases/41405-aftershock-video-addon-indian-movies-tv.html</website>
-  </extension>
+    	<website>https://forums.tvaddons.ag/addon-releases/41405-aftershock-video-addon-indian-movies-tv.html</website>
+    </extension>
 </addon>
 
 <addon id="script.aftershock.artwork" version="1.1.0" name="Aftershock Artwork     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" provider-name="IDev">
