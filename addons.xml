@@ -477,7 +477,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.ukturk" name="UK Turk Playlists     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.0.12" provider-name="MetalKettle">
+<addon id="plugin.video.ukturk" name="UK Turk Playlists     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.0.13" provider-name="MetalKettle">
   <requires>
     <import addon="script.module.simplejson" version="3.3.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -485,8 +485,9 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
     <import addon="plugin.video.youtube" version="3.0.0"/>
     <import addon="script.module.urlresolver"  version="2.1.2"/>
     <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-    <import addon="script.video.F4mProxy" version="2.5.0"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>    
+    <import addon="script.video.F4mProxy" version="2.5.3"/>
+    <import addon="script.module.liveresolver" version="0.1.24"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -701,7 +702,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="5.9.7"
+       version="6.0.0"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -725,7 +726,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.f4mTester" version="2.6.6" name="f4mTester      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" provider-name="Shani">
+<addon id="plugin.video.f4mTester" version="2.6.8" name="f4mTester      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.video.F4mProxy" version="2.0.0"/>
@@ -742,7 +743,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="script.video.F4mProxy" 
 	     name="F4mProxy      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" 
-	     version="2.6.7" 
+	     version="2.6.8" 
 	     provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
