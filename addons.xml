@@ -157,7 +157,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.zen" version="1.4.10" name="Zen     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Zen">
+<addon id="plugin.video.zen" version="1.4.12" name="Zen     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.zen.artwork" />
@@ -702,7 +702,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="6.0.0"
+       version="6.0.3"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -726,7 +726,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.f4mTester" version="2.6.8" name="f4mTester      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" provider-name="Shani">
+<addon id="plugin.video.f4mTester" version="2.6.9" name="f4mTester      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.video.F4mProxy" version="2.0.0"/>
@@ -743,7 +743,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="script.video.F4mProxy" 
 	     name="F4mProxy      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" 
-	     version="2.6.8" 
+	     version="2.6.9" 
 	     provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
