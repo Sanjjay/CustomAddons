@@ -35,11 +35,11 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.121" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.122" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
-        <import addon="script.module.myconnpy" version="1.1.6" />
+        <import addon="script.module.myconnpy" version="1.0.0" />
         <import addon="script.module.tknorris.shared" version="0.0.1"/>
         <import addon="script.module.image_cache" version="0.0.1" optional="true"/>
     </requires>
@@ -59,7 +59,7 @@
 	<assets>
 	  <icon>icon.png</icon>
 	  <fanart>fanart.jpg</fanart>
-	  <screenshot>resources/screenshots/screenshot1.png</screenshot>
+          <screenshot>resources/screenshots/screenshot1.png</screenshot>
           <screenshot>resources/screenshots/screenshot2.png</screenshot>
           <screenshot>resources/screenshots/screenshot3.png</screenshot>
           <screenshot>resources/screenshots/screenshot4.png</screenshot>
@@ -80,7 +80,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.0.12" provider-name="tknorris">
+<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.0.13" provider-name="tknorris">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -91,8 +91,19 @@
 	</extension>
 </addon>
 
+<addon id="script.module.image_cache" name="TMDB Image API Cache     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.0.3" provider-name="tvaddons.ag, tknorris">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">A local cache of TMDB Image API Responses</summary>
+		<description lang="en">This is a local, querable DB cache of image keys that lighten the load on image metadata sources</description>
+	</extension>
+</addon>
 
-<addon id="plugin.video.exodus" version="2.0.20" name="Exodus      [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.21" name="Exodus      [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.exodus.artwork" version="1.0.0" />
@@ -157,7 +168,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.zen" version="1.4.13" name="Zen     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Zen">
+<addon id="plugin.video.zen" version="1.4.15" name="Zen     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.zen.artwork" />
@@ -702,7 +713,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="6.0.3"
+       version="6.0.5"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -762,23 +773,38 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.playthis"
        name="PlayThis      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]"
-       version="2.2.5"
+       version="3.0.0"
        provider-name="anxdpanic">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
+        <import addon="script.module.youtube.dl"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="resources/lib/__run__.py">
         <provides>executable</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">Resolve and play url/file</summary>
-        <description lang="en">Will attempt to resolve and play the provided url/file location. Keeps a history of played urls for future use.[CR][CR]Artwork by @konsumer420</description>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <summary lang="en">Find and resolve media from a url to play or open.</summary>
+        <description lang="en">
+PlayThis will attempt to find and resolve* media from a url to play or open. A history list is available for future use/exporting to M3U**. Supports video, audio, images and executable***.
+* resolves using URLResolver and youtube-dl
+** M3U only usable in Kodi w/ PlayThis installed
+*** 'executable' items are urls with potential results available through scraping
+
+Companion browser extension available on the Chrome Web Store and Mozilla's AMO Gallery
+
+Artwork by @konsumer420
+        </description>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <forum> </forum>
+        <website>https://github.com/anxdpanic/plugin.video.playthis#playthis</website>
+        <source>https://github.com/anxdpanic/plugin.video.playthis</source>
     </extension>
-    <website>https://github.com/anxdpanic/plugin.video.playthis#playthis</website>
-    <source>https://github.com/anxdpanic/plugin.video.playthis</source>
 </addon>
 
 <addon id="script.anyurl.player"
@@ -809,7 +835,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.24" provider-name="tvaddons.ag, Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.25" provider-name="tvaddons.ag, Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
