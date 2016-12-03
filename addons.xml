@@ -597,7 +597,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 	</extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="5.3.0" provider-name="jdf76, bromix">
+<addon id="plugin.video.youtube" name="YouTube     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="5.3.6" provider-name="jdf76, bromix">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
         	<import addon="script.module.urlresolver" optional="true"/>
