@@ -103,7 +103,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="2.0.21" name="Exodus      [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.22" name="Exodus      [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.exodus.artwork" version="1.0.0" />
@@ -168,7 +168,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.zen" version="1.4.20" name="Zen     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Zen">
+<addon id="plugin.video.zen" version="1.4.21" name="Zen     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.zen.artwork" />
@@ -393,7 +393,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.1.16" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.1.17" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -488,7 +488,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.ukturk" name="UK Turk Playlists     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.0.15" provider-name="MetalKettle">
+<addon id="plugin.video.ukturk" name="UK Turk Playlists     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.0.16" provider-name="MetalKettle">
   <requires>
     <import addon="script.module.simplejson" version="3.3.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -496,7 +496,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
     <import addon="plugin.video.youtube" version="3.0.0"/>
     <import addon="script.module.urlresolver"  version="2.1.2"/>
     <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>    
+    <import addon="script.module.metahandler" version="2.5.1"/>
     <import addon="script.video.F4mProxy" version="2.5.3"/>
     <import addon="script.module.liveresolver" version="0.1.24"/>
   </requires>
@@ -597,10 +597,9 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 	</extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="5.3.6" provider-name="jdf76, bromix">
+<addon id="plugin.video.youtube" name="YouTube     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="5.3.7" provider-name="jdf76, bromix">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
-        	<import addon="script.module.urlresolver" optional="true"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
