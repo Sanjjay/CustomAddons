@@ -35,11 +35,11 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.126" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.128" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
-        <import addon="script.module.myconnpy" version="1.0.0" />
+        <import addon="script.module.myconnpy" version="1.1.6" />
         <import addon="script.module.tknorris.shared" version="0.0.1"/>
         <import addon="script.module.image_cache" version="0.0.1" optional="true"/>
     </requires>
@@ -59,7 +59,7 @@
 	<assets>
 	  <icon>icon.png</icon>
 	  <fanart>fanart.jpg</fanart>
-          <screenshot>resources/screenshots/screenshot1.png</screenshot>
+	  <screenshot>resources/screenshots/screenshot1.png</screenshot>
           <screenshot>resources/screenshots/screenshot2.png</screenshot>
           <screenshot>resources/screenshots/screenshot3.png</screenshot>
           <screenshot>resources/screenshots/screenshot4.png</screenshot>
@@ -168,7 +168,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.zen" version="1.4.22" name="Zen     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Zen">
+<addon id="plugin.video.zen" version="1.4.23" name="Zen     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.zen.artwork" />
@@ -393,7 +393,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.1.17" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.1.18" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -488,7 +488,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.ukturk" name="UK Turk Playlists     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.0.16" provider-name="MetalKettle">
+<addon id="plugin.video.ukturk" name="UK Turk Playlists     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.0.17" provider-name="MetalKettle">
   <requires>
     <import addon="script.module.simplejson" version="3.3.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -736,7 +736,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.f4mTester" version="2.6.9" name="f4mTester      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" provider-name="Shani">
+<addon id="plugin.video.f4mTester" version="2.7.1" name="f4mTester      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.video.F4mProxy" version="2.0.0"/>
@@ -753,7 +753,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="script.video.F4mProxy" 
 	     name="F4mProxy      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" 
-	     version="2.6.9" 
+	     version="2.7.1" 
 	     provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -762,7 +762,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.python.pluginsource" library="addon.py">
 	<provides>executable</provides>
-  </extension>
+  </extension>    
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <summary lang="en">Proxy for f4m</summary>
@@ -772,10 +772,10 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.playthis"
        name="PlayThis      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]"
-       version="3.1.0"
+       version="3.1.1"
        provider-name="anxdpanic">
     <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="xbmc.python" version="2.20.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
         <import addon="script.module.youtube.dl"/>
     </requires>
@@ -794,21 +794,22 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
         </assets>
         <summary lang="en">Find and resolve media from a url to play or open.</summary>
         <description lang="en">
-PlayThis will attempt to find and resolve* media from a url to play or open. A history list is available for future use, exporting to .m3u/.strm** and casting to a remote PlayThis add-on. Supports video, audio, images and executable***.
+PlayThis will attempt to find and resolve* media from a url to play or open. A history list is available for future use, exporting to .m3u/.strm** and sending to a remote PlayThis add-on. Supports video, audio, images and executable***.
+
 * resolves using URLResolver and youtube-dl
 ** exported .m3u/.strm is only usable in Kodi w/ PlayThis installed
-*** 'executable' items are urls with potential results available through scraping
+*** 'executable' items are urls with potential results available through scraping.
 
-Companion browser extension available on the Chrome Web Store and Mozilla's AMO Gallery
+Companion browser extension available on the Chrome Web Store and Mozilla's AMO 
 
-Artwork by @konsumer420
+Gallery Artwork by @konsumer420
         </description>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
         <forum> </forum>
         <website>https://github.com/anxdpanic/plugin.video.playthis#playthis</website>
         <source>https://github.com/anxdpanic/plugin.video.playthis</source>
-    </extension>
+	</extension>
 </addon>
 
 <addon id="script.anyurl.player"
