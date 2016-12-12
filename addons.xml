@@ -35,7 +35,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.128" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.129" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -168,7 +168,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.zen" version="1.4.23" name="Zen     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Zen">
+<addon id="plugin.video.zen" version="1.4.24" name="Zen     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.zen.artwork" />
@@ -488,7 +488,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   </extension>
 </addon>
 
-<addon id="plugin.video.ukturk" name="UK Turk Playlists     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.0.17" provider-name="MetalKettle">
+<addon id="plugin.video.ukturk" name="UK Turk Playlists     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.0.18" provider-name="MetalKettle">
   <requires>
     <import addon="script.module.simplejson" version="3.3.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -712,7 +712,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="6.0.6"
+       version="6.0.8"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -726,7 +726,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
             library="default.py">
         <provides>video</provides>
   </extension>
-    <extension point="xbmc.addon.metadata">
+  <extension point="xbmc.addon.metadata">
     <summary>Zem Addon for sports and desi contents. Visit TVADDONS.ag for support</summary>
     <description>Watch Sports and Desi contents on your XBMC. This plugin fetches the video sources from various platforms and locations</description>
     <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with any of the content provider.</disclaimer>
@@ -753,7 +753,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
 
 <addon id="script.video.F4mProxy" 
 	     name="F4mProxy      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" 
-	     version="2.7.1" 
+	     version="2.7.3" 
 	     provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -762,7 +762,7 @@ Still needs lots of work. Not fully tested.The addon relies on the following add
   <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.python.pluginsource" library="addon.py">
 	<provides>executable</provides>
-  </extension>    
+  </extension>   
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <summary lang="en">Proxy for f4m</summary>
