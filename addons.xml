@@ -950,6 +950,32 @@ Gallery Artwork by @konsumer420
   </extension>
 </addon>
 
+<addon id="service.subtitles.opensubtitles"
+       name="OpenSubtitles.org     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]"
+       version="5.1.17"
+       provider-name="amet, opensubtitles">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary>OpenSubtitles.org</summary>
+    <description lang="en">Anonymously search and download subtitles for movies and TV-Series from OpenSubtitles.org without log-in. Search in 75 languages, 4.000.000+ subtitles, daily updates. </description>
+    <disclaimer>Works without log-in</disclaimer>                                               
+    <platform>all</platform>
+    <language></language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>        
+    <assets>
+	<icon>resources/media/os_logo_512x512.png</icon>
+	<fanart>resources/media/os_fanart.jpg</fanart>    
+	<screenshot>resources/media/screenshot_1.jpg</screenshot>
+	<screenshot>resources/media/screenshot_2.jpg</screenshot>
+	<screenshot>resources/media/screenshot_3.jpg</screenshot>				
+    </assets>  
+  </extension>
+</addon>
+
 <addon id="plugin.program.SpeedTester.net" name="SpeedTester.net     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="1.0.2.1" provider-name="Twilight0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
