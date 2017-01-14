@@ -699,7 +699,7 @@ provider-name="Gujal">
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="6.1.7"
+       version="6.1.8"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
