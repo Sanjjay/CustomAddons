@@ -706,7 +706,7 @@ provider-name="Gujal">
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="6.2.3"
+       version="6.2.4"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -719,7 +719,7 @@ provider-name="Gujal">
   <extension point="xbmc.python.pluginsource"
             library="default.py">
         <provides>video</provides>
-  </extension>
+  </extension>  
   <extension point="xbmc.addon.metadata">
     <summary>Zem Addon for sports and desi contents. Visit TVADDONS.ag for support</summary>
     <description>Watch Sports and Desi contents on your XBMC. This plugin fetches the video sources from various platforms and locations</description>
