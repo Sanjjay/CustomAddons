@@ -176,7 +176,6 @@
 		<import addon="script.module.metahandler" version="1.0.0" />
 		<import addon="script.module.requests" />
 		<import addon="script.module.beautifulsoup" />
-		<import addon="script.module.schism.common" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="zen.py">
 		<provides>video</provides>
