@@ -175,7 +175,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.zen" version="1.8.2" name="Zen     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Zen">
+<addon id="plugin.video.zen" version="1.8.3" name="Zen     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.zen.artwork" />
@@ -246,7 +246,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.aftershock" name="Aftershock     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" version="4.6.0" provider-name="AftershockPY">
+<addon id="plugin.video.aftershock" name="Aftershock     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" version="4.6.2" provider-name="AftershockPY">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.aftershock.artwork" version="1.0.0"/>
@@ -557,7 +557,7 @@ provider-name="Gujal">
   </extension>
 </addon>
 
-<addon id="plugin.video.ukturk" name="UK Turk Playlists     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.0.24" provider-name="MetalKettle">
+<addon id="plugin.video.ukturk" name="UK Turk Playlists     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.0.25" provider-name="MetalKettle">
   <requires>
     <import addon="script.module.simplejson" version="2.0.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -568,7 +568,6 @@ provider-name="Gujal">
     <import addon="script.module.metahandler" version="2.0.0"/>    
     <import addon="script.video.F4mProxy" version="2.0.0"/>
     <import addon="script.module.liveresolver" version="0.0.1"/>
-    <!-- <import addon="program.plexus" version="0.0.1"/> -->
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -747,7 +746,7 @@ provider-name="Gujal">
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="6.3.2"
+       version="6.3.3"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -755,7 +754,7 @@ provider-name="Gujal">
     <import addon="plugin.video.youtube" version="2.0.0" optional="true"/>
     <import addon="script.module.simplejson" version="2.0.0"/>
     <import addon="script.module.elementtree" version="1.0.0"/>
-    <import addon="plugin.video.f4mTester" version="2.0.0"/>
+    <import addon="plugin.video.f4mTester" version="2.0.0" />
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
