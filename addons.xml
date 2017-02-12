@@ -175,7 +175,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.zen" version="1.8.3" name="Zen     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Zen">
+<addon id="plugin.video.zen" version="2017.02.09" name="Zen     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.zen.artwork" />
@@ -190,7 +190,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Zen Movies/TV Shows</summary>
-		<description lang="en">Watch Movies and TV Shows in High Definition and surround sound. Free providers might not work --- TO AUTHORIZE DEBRID LINKS USE THE URL RESOLVER Menu under TOOLS , AND ENABLE DEBRID SOURCES IN THE Providers SETTINGS --- </description>
+		<description lang="en">Watch Movies and TV Shows in High quality! Please note that this addon is not an official part of the Kodi media player , and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
 		<disclaimer lang="en">The Author does not host or share any content, nor is affiliated with the content providers.</disclaimer>
 		<platform>all</platform>
 		<website>http://schism-tv.net</website>
@@ -218,7 +218,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.schism.common" name="SchisM Common Libraries     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="1.4" provider-name="SchisM">
+<addon id="script.module.schism.common" name="SchisM Common Libraries     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="1.5" provider-name="SchisM">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" />
@@ -246,7 +246,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.aftershock" name="Aftershock     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" version="4.6.2" provider-name="AftershockPY">
+<addon id="plugin.video.aftershock" name="Aftershock     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" version="4.6.3" provider-name="AftershockPY">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.aftershock.artwork" version="1.0.0"/>
@@ -456,7 +456,7 @@ provider-name="Gujal">
 </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.2.1" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.2.2" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="2.0.0" optional="true" />
@@ -746,7 +746,7 @@ provider-name="Gujal">
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="6.3.3"
+       version="6.3.4"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -754,7 +754,7 @@ provider-name="Gujal">
     <import addon="plugin.video.youtube" version="2.0.0" optional="true"/>
     <import addon="script.module.simplejson" version="2.0.0"/>
     <import addon="script.module.elementtree" version="1.0.0"/>
-    <import addon="plugin.video.f4mTester" version="2.0.0" />
+    <import addon="plugin.video.f4mTester" version="2.0.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
