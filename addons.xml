@@ -286,7 +286,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.bbciplayer" name="BBC iPlayer     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.2.9" provider-name="Mikey1234">
+<addon id="plugin.video.bbciplayer" name="BBC iPlayer     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.3.0" provider-name="Mikey1234">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -300,7 +300,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.itv" name="ITV     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="2.3.2" provider-name="Mikey1234">
+<addon id="plugin.video.itv" name="ITV     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="2.3.4" provider-name="Mikey1234">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -746,7 +746,7 @@ provider-name="Gujal">
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="6.3.4"
+       version="6.3.5"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
