@@ -534,11 +534,12 @@ provider-name="Gujal">
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2016.12.31"
+  version="2017.02.18"
   name="SportsDevil     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]"
   provider-name="SportsDevil">
   <requires>
    <import addon="xbmc.python" version="2.1.0"/>
+   <import addon="script.module.dateutil" />
    <import addon="script.module.simplejson" />
    <import addon="script.module.six" />
    <import addon="script.module.requests" />
@@ -746,7 +747,7 @@ provider-name="Gujal">
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="6.3.5"
+       version="6.3.6"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
