@@ -456,7 +456,7 @@ provider-name="Gujal">
 </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.2.2" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.2.3" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="2.0.0" optional="true" />
@@ -534,7 +534,7 @@ provider-name="Gujal">
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2017.02.18"
+  version="2017.02.29"
   name="SportsDevil     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]"
   provider-name="SportsDevil">
   <requires>
@@ -558,7 +558,7 @@ provider-name="Gujal">
   </extension>
 </addon>
 
-<addon id="plugin.video.ukturk" name="UK Turk Playlists     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.0.26" provider-name="MetalKettle">
+<addon id="plugin.video.ukturk" name="UK Turk Playlists     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.0.27" provider-name="MetalKettle">
   <requires>
     <import addon="script.module.simplejson" version="2.0.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -747,7 +747,7 @@ provider-name="Gujal">
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="6.3.7"
+       version="6.3.8"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -909,11 +909,11 @@ Gallery Artwork by @konsumer420
 
 <addon id="script.module.liveresolver" 
      name="LiveResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" 
-     version="0.1.48" 
+     version="0.1.49" 
      provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.beautifulsoup" version="2.0.0"/>
     <import addon="script.module.requests"/>
     <import addon="script.module.addon.common" version="2.0.0" />
   </requires>
