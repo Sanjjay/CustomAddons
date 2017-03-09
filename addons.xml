@@ -68,7 +68,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="2.0.40" name="Exodus      [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.41" name="Exodus      [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.exodus.artwork" version="1.0.0" />
@@ -842,7 +842,7 @@ Gallery Artwork by @konsumer420
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.28" provider-name="tvaddons.ag, Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.28a" provider-name="tvaddons.ag, Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -1108,7 +1108,7 @@ provider-name="primaeval">
   </extension>
 </addon>
 
-<addon id="repository.customaddons" name="Custom Addons Repository     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="0.0.2" provider-name="Custom Addons">
+<addon id="repository.customaddons" name="Custom Addons Repository     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="0.0.3" provider-name="Custom Addons">
 	<extension point="xbmc.addon.repository" name="Custom Addons Repository">
 	    <dir>
 		<info compressed="false">https://raw.githubusercontent.com/Sanjjay/CustomAddons/master/zips/plugin.video.exodus/addons.xml</info>
