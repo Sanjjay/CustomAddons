@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.salts" version="2.0.155" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.159" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="2.0.0"/>
@@ -714,7 +714,7 @@ provider-name="Gujal">
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="6.4.2"
+       version="6.4.4"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -727,7 +727,7 @@ provider-name="Gujal">
   <extension point="xbmc.python.pluginsource"
             library="default.py">
         <provides>video</provides>
-  </extension>
+  </extension>  
   <extension point="xbmc.addon.metadata">
     <summary>Zem Addon for sports and desi contents. Visit TVADDONS.ag for support</summary>
     <description>Watch Sports and Desi contents on your XBMC. This plugin fetches the video sources from various platforms and locations</description>
@@ -842,7 +842,7 @@ Gallery Artwork by @konsumer420
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.28a" provider-name="tvaddons.ag, Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.28b" provider-name="tvaddons.ag, Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
