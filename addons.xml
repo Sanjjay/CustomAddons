@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.salts" version="2.0.159" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.160" name="Stream All The Sources     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="2.0.0"/>
@@ -45,7 +45,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.0.16" provider-name="tknorris">
+<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.0.17" provider-name="tknorris">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -140,16 +140,16 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.zen" version="2017.03.05" name="Zen     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Zen">
+<addon id="plugin.video.zen" version="2017.03.08" name="Zen     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.zen.artwork" />
-		<import addon="script.module.urlresolver" version="2.0.0"/>
+		<import addon="script.module.urlresolver" version="2.0.0" />
 		<import addon="script.module.metahandler" version="1.0.0" />
 		<import addon="script.module.requests" />
 		<import addon="script.module.beautifulsoup" />
 		<import addon="script.module.schism.common" />
-		<import addon="script.module.futures" version="2.0.0"/>
+		<import addon="script.module.futures" version="2.0.0" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="zen.py">
 		<provides>video</provides>
@@ -184,10 +184,9 @@
 	</extension>
 </addon>
 
-<addon id="script.module.schism.common" name="SchisM Common Libraries     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="1.9.0" provider-name="SchisM">
+<addon id="script.module.schism.common" name="SchisM Common Libraries     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="3.1.0" provider-name="SchisM">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.requests" />
 		<import addon="script.module.six" />
 		<import addon="script.module.metahandler" />
 		<import addon="script.module.beautifulsoup" />
@@ -196,29 +195,19 @@
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
 		<summary lang="en">Collection of modules used by SchisM Addons</summary>
-		<description lang="en">Collection of modules used by SchisM Addons
-		beautifulsoup3 v3.2.1 from https://www.crummy.com/software/BeautifulSoup :
-		beautifulsoup4 v4.5.1 from https://www.crummy.com/software/BeautifulSoup :
-		cfscrape 1.6.8 from https://github.com/Anorov/cloudflare-scrape :
-		incapsula-cracker v0.1.3 from https://github.com/ziplokk1/incapsula-cracker :
-		Js2Py v0.40 from https://github.com/PiotrDabkowski/Js2Py :
-		jsbeautifier v1.6.4 from https://pypi.python.org/pypi/jsbeautifier :
-		jsunpack from urlresolver :
-		requests v2.12.4 from https://github.com/kennethreitz/requests :
-		six v1.10.0 from https://pypi.python.org/pypi/six :
-		unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
-		</description>
+		<description lang="en">Collection of modules used by SchisM Addons</description>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
 	</extension>
 </addon>
 
-<addon id="plugin.video.aftershock" name="Aftershock     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" version="4.6.3" provider-name="AftershockPY">
+<addon id="plugin.video.aftershock" name="Aftershock     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" version="4.6.4" provider-name="AftershockPY">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.aftershock.artwork" version="1.0.0"/>
         <import addon="script.module.urlresolver"  version="2.0.0"/>
 	<import addon="script.module.metahandler"  version="1.0.0"/>
 	<import addon="script.module.beautifulsoup" version="2.0.0"/>
+        <import addon="script.aftershock.core" version="1.0.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="aftershock.py">
         <provides>video</provides>
@@ -238,6 +227,21 @@
             <screenshot>resources/screenshots/screenshot-03.png</screenshot>
         </assets>
     </extension>
+</addon>
+
+<addon id="script.aftershock.core" name="Aftershock-Core     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" version="1.0.0" provider-name="AftershockPY">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib"/>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description></description>
+    <platform>all</platform>
+    <license>Simplified BSD</license>
+    <source></source>
+    <website></website>
+  </extension>
 </addon>
 
 <addon id="script.aftershock.artwork" version="1.3.2" name="Aftershock Artwork     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" provider-name="IDev">
@@ -842,7 +846,7 @@ Gallery Artwork by @konsumer420
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.28b" provider-name="tvaddons.ag, Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.28c" provider-name="tvaddons.ag, Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
