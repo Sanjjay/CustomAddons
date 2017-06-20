@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.exodus" version="2.0.42" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.44" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.exodus.artwork" version="1.0.0" />
 		<import addon="script.exodus.metadata" version="1.0.0" />
-		<import addon="script.module.urlresolver" version="2.0.0" />
+		<import addon="script.module.urlresolver" version="1.0.0" />
 		<import addon="script.module.metahandler" version="1.0.0" />
-		<import addon="script.extendedinfo" version="2.0.0" />
+		<import addon="script.extendedinfo" version="1.0.0" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="exodus.py">
 		<provides>video</provides>
@@ -17,6 +17,9 @@
 		<description lang="en">Please visit www.tvaddons.ag for Exodus support and assistance! Kindly note that Exodus is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
 		<platform>all</platform>
+		<forum>https://www.tvaddons.ag/forums/exodus-repository/</forum>
+		<website>https://www.tvaddons.ag/</website>
+		<source>https://dev.tvaddons.ag/tvaddons/plugin.video.exodus/</source>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
