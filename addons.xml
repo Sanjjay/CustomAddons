@@ -530,7 +530,7 @@ provider-name="Gujal">
   </extension>
 </addon>
 
-<addon id="plugin.video.ukturk" name="UK Turk Playlists     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="4.0.6" provider-name="MetalKettle">
+<addon id="plugin.video.ukturk" name="UK Turk Playlists     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="4.0.6" provider-name="UKTurk">
   <requires>
     <import addon="script.module.simplejson" version="2.0.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -538,7 +538,7 @@ provider-name="Gujal">
     <import addon="plugin.video.youtube" version="2.0.0"/>
     <import addon="script.module.urlresolver"  version="2.0.0"/>
     <import addon="script.common.plugin.cache" version="2.0.0"/>
-    <import addon="script.module.metahandler" version="2.0.0"/>   
+    <import addon="script.module.metahandler" version="2.0.0"/>    
     <import addon="script.video.F4mProxy" version="2.0.0"/>
     <import addon="script.module.liveresolver" version="0.0.1"/>
   </requires>
