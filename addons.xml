@@ -184,7 +184,49 @@
 	</extension>
 </addon>
 
-<addon id="script.module.schism.common" name="SchisM Common Libraries     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="2017.3.30" provider-name="SchisM">
+<addon id="plugin.video.elysium" version="2017.06.27t" name="Elysium     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Elysium">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.elysium.artwork" version="2017.06.27"/>
+		<import addon="script.module.urlresolver"/>
+		<import addon="script.module.metahandler"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.beautifulsoup"/>
+		<import addon="script.module.schism.common"/>
+		<import addon="script.module.futures"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="elysium.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Elysium movies and TV shows</summary>
+		<description lang="en">Watch movies and TV shows in high quality! Please note that this addon is not an official part of the Kodi media player and is therefore not to be mentioned within Kodi's official support channels. This addon has nothing to do with the media player itself, nor its intended use, it is simply a third party plugin which has been added to your system.</description>
+		<disclaimer lang="en">The author does not host any content, nor is he affiliated with any of the content providers.</disclaimer>
+		<platform>all</platform>
+		<news>Fixed error on opening addon</news>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="script.elysium.artwork" version="2017.06.27" name="Elysium Artwork     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Elysium">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the Elysium Addon</summary>
+		<description></description>
+		<platform>all</platform>
+		<news>Added extra theme (thanks Will Martins)</news>
+	</extension>
+</addon>
+
+<addon id="script.module.schism.common" name="Elysium Common Libraries     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="2017.06.08" provider-name="Elysium">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.six" />
@@ -194,8 +236,8 @@
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
-		<summary lang="en">Collection of modules used by SchisM Addons</summary>
-		<description lang="en">Collection of modules used by SchisM Addons</description>
+		<summary lang="en">Collection of modules used by Elysium</summary>
+		<description lang="en">Collection of modules used by Elysium</description>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
 	</extension>
 </addon>
@@ -760,7 +802,7 @@ provider-name="Gujal">
 
 <addon id="script.video.F4mProxy" 
 	     name="F4mProxy      [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" 
-	     version="2.8.6" 
+	     version="2.8.7" 
 	     provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -847,9 +889,12 @@ Gallery Artwork by @konsumer420
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.28d" provider-name="tvaddons.ag, Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="3.0.35" provider-name="tvaddons.ag, Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="script.module.python.twitch" optional="true" />
+		<import addon="script.module.cryptopy" version="1.0.0" optional="true" />
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
