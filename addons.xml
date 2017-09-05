@@ -68,7 +68,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="2.0.45" name="Exodus      [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.46" name="Exodus      [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.exodus.artwork" version="1.0.0" />
@@ -76,6 +76,7 @@
 		<import addon="script.module.urlresolver" version="1.0.0" />
 		<import addon="script.module.metahandler" version="1.0.0" />
 		<import addon="script.extendedinfo" version="1.0.0" />
+		<import addon="plugin.video.requests" version="1.0.0" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="exodus.py">
 		<provides>video</provides>
@@ -137,6 +138,32 @@
 		<forum>http://forum.kodi.tv/showthread.php?tid=160558</forum>
 		<source>https://github.com/phil65/script.extendedinfo</source>
 		<email>phil65@kodi.tv</email>
+	</extension>
+</addon>
+
+<addon id="plugin.video.requests" name=" Requests     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="1.0.0" provider-name="Requests">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" version="1.0.0"/>
+		<import addon="script.module.pyxbmct" version="1.0.0" />
+		<import addon="script.module.urlresolver" version="1.0.0"/>
+		<import addon="script.module.liveresolver" version="0.0.1"/>
+		<import addon="script.video.F4mProxy" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Request Links</summary>
+		<description lang="en">Request Links</description>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>New Release</news>
 	</extension>
 </addon>
 
