@@ -68,15 +68,13 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="2.0.46" name="Exodus      [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.50" name="Exodus      [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.exodus.artwork" version="1.0.0" />
 		<import addon="script.exodus.metadata" version="1.0.0" />
 		<import addon="script.module.urlresolver" version="1.0.0" />
 		<import addon="script.module.metahandler" version="1.0.0" />
-		<import addon="script.extendedinfo" version="1.0.0" />
-		<import addon="plugin.video.requests" version="1.0.0" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="exodus.py">
 		<provides>video</provides>
