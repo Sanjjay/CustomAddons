@@ -209,34 +209,35 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.elysium" version="2017.06.27t" name="Elysium     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Elysium">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.elysium.artwork" version="2017.06.27"/>
-		<import addon="script.module.urlresolver"/>
-		<import addon="script.module.metahandler"/>
-		<import addon="script.module.requests"/>
-		<import addon="script.module.beautifulsoup"/>
-		<import addon="script.module.schism.common"/>
-		<import addon="script.module.futures"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="elysium.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Elysium movies and TV shows</summary>
-		<description lang="en">Watch movies and TV shows in high quality! Please note that this addon is not an official part of the Kodi media player and is therefore not to be mentioned within Kodi's official support channels. This addon has nothing to do with the media player itself, nor its intended use, it is simply a third party plugin which has been added to your system.</description>
-		<disclaimer lang="en">The author does not host any content, nor is he affiliated with any of the content providers.</disclaimer>
-		<platform>all</platform>
-		<news>Fixed error on opening addon</news>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-	</extension>
+<addon id="plugin.video.elysium" version="2017.10.14" name="Elysium     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Elysium">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.elysium.artwork" version="2017.01.01"/>
+        <import addon="script.module.schism.common" version="2017.01.01"/>
+        <import addon="script.module.urlresolver" version="2.0.0"/>
+        <import addon="script.module.metahandler" version="2.0.0"/>
+        <import addon="script.module.requests" version="2.0.0"/>
+        <import addon="script.module.beautifulsoup" version="2.0.0"/>
+        <import addon="script.module.futures" version="2.0.0"/>
+        <import addon="script.module.nanscrapers" version="0.0.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="elysium.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Elysium movies and TV shows</summary>
+        <description lang="en">Watch movies and TV shows in high quality! Please note that this addon is not an official part of the Kodi media player and is therefore not to be mentioned within Kodi's official support channels. This addon has nothing to do with the media player itself, nor its intended use, it is simply a third party plugin which has been added to your system.</description>
+        <disclaimer lang="en">The author does not host any content, nor is he affiliated with any of the content providers.</disclaimer>
+        <platform>all</platform>
+        <news></news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
 
-<addon id="script.elysium.artwork" version="2017.06.27" name="Elysium Artwork     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Elysium">
+<addon id="script.elysium.artwork" version="2017.08.18" name="Elysium Artwork     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Elysium">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
@@ -265,6 +266,32 @@
 		<description lang="en">Collection of modules used by Elysium</description>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
 	</extension>
+</addon>
+
+<addon id="script.module.nanscrapers" name="NaN Scrapers     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.5.40" provider-name="Team NaN">
+        <requires>
+                <import addon="xbmc.python" version="2.1.0"/>
+                <import addon="script.module.beautifulsoup" version="2.0.0"/>
+                <import addon="script.module.futures" version="2.0.0"/>
+                <import addon="script.module.requests"/>
+                <import addon="script.module.six"/>
+                <!--<import addon="script.module.urlresolver" version="2.0.0" optional="true"/>-->
+                <!--<import addon="script.mrknow.urlresolver" version="2016.01.01" optional="true"/>-->
+        </requires>
+        <extension point="xbmc.python.module" library="lib"/>
+        <extension point="xbmc.python.pluginsource" library="lib/default.py">
+                <provides>executable</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+                <platform>all</platform>
+                <summary lang="en">Scrape common video host for URL's to be playable in XBMC/Kodi.</summary>
+                <description lang="en">Scrape common video host for URL's to be playable in XBMC/Kodi, simplifying addon development of video plugins requiring multi video hosts.
+                </description>
+                <license>GPL v3</license>
+                <source>https://github.com/noobsandnerds/noobsandnerds/tree/master/script.module.nanscrapers</source>
+                <forum>http://www.noobsandnerds.com/support/showthread.php?tid=17212</forum>
+                <website>http://noobsandnerds.com</website>
+        </extension>
 </addon>
 
 <addon id="plugin.video.aftershock" name="Aftershock     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" version="5.0.1" provider-name="AftershockPY">
@@ -970,7 +997,7 @@ Gallery Artwork by @konsumer420
   </extension>
 </addon>
 
-<addon id="plugin.program.super.favourites" name="Super Favourites      [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="1.0.56" provider-name="spoyser">
+<addon id="plugin.program.super.favourites" name="Super Favourites      [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="1.0.58" provider-name="spoyser">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.metahandler" optional="true" />
