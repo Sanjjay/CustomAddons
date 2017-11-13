@@ -209,7 +209,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.elysium" version="2017.10.14" name="Elysium     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Elysium">
+<addon id="plugin.video.elysium" version="2017.11.12" name="Elysium     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Elysium">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.elysium.artwork" version="2017.01.01"/>
@@ -237,7 +237,7 @@
     </extension>
 </addon>
 
-<addon id="script.elysium.artwork" version="2017.08.18" name="Elysium Artwork     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Elysium">
+<addon id="script.elysium.artwork" version="2017.11.12" name="Elysium Artwork     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" provider-name="Elysium">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
@@ -248,7 +248,7 @@
 		<summary>Themes for the Elysium Addon</summary>
 		<description></description>
 		<platform>all</platform>
-		<news>Added extra theme (thanks Will Martins)</news>
+		<news>Added new artwork</news>
 	</extension>
 </addon>
 
@@ -268,7 +268,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.nanscrapers" name="NaN Scrapers     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.5.40" provider-name="Team NaN">
+<addon id="script.module.nanscrapers" name="NaN Scrapers     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.5.41" provider-name="Team NaN">
         <requires>
                 <import addon="xbmc.python" version="2.1.0"/>
                 <import addon="script.module.beautifulsoup" version="2.0.0"/>
