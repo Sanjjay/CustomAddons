@@ -238,7 +238,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.swadesi" name="Swa-DESI     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" version="2017.11.07" provider-name="AftershockPY">
+<addon id="plugin.video.swadesi" name=" Swa-DESI     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" version="2017.12.18" provider-name="AftershockPY">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.aftershock.common"/>
@@ -257,7 +257,7 @@
         <disclaimer lang="en">The content provided in this application is available free on public domain. We do not host any content. We are just providing the way to stream and all content is the copyright of their owner. The author does not have any affiliation with the content providers nor uploads any content to the providers.</disclaimer>
         <platform>all</platform>
         <forum></forum>
-	    <website></website>
+	<website></website>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
