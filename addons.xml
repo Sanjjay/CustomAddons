@@ -182,7 +182,7 @@
         </extension>
 </addon>
 
-<addon id="plugin.video.aftershock" name="Aftershock     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" version="5.0.1" provider-name="AftershockPY">
+<addon id="plugin.video.aftershock" name="Aftershock     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" version="5.0.2" provider-name="AftershockPY">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver"  version="2.0.0"/>
