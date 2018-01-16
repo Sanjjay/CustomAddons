@@ -247,8 +247,8 @@
         <import addon="script.module.urlresolver"  version="2.0.0"/>
 	<import addon="script.module.metahandler"  version="1.0.0"/>
 	<import addon="script.module.beautifulsoup" version="2.0.0"/>
-	<import addon="plugin.video.deccandelight" version="2.0.0"/>
-	<import addon="plugin.video.einthusan" version="2.0.0"/>
+	<import addon="plugin.video.deccandelight" version="1.0.0"/>
+	<import addon="plugin.video.einthusan" version="1.0.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="swadesi.py">
         <provides>video</provides>
