@@ -442,7 +442,7 @@ DeccanDelight and its developers do not host, create, or distribute any of the c
   </extension>
 </addon>
 
-<addon id="plugin.video.ukturk" name="UK Turk Playlists     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="4.0.15" provider-name="UKTurk">
+<addon id="plugin.video.ukturk" name="UK Turk Playlists     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="5.0.2" provider-name="UKTurk">
   <requires>
     <import addon="script.module.simplejson" version="2.0.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
