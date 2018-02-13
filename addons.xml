@@ -156,14 +156,14 @@
 	</extension>
 </addon>
 
-<addon id="script.module.nanscrapers" name="NaN Scrapers     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.5.43" provider-name="Team NaN">
+<addon id="script.module.nanscrapers" name="NaN Scrapers     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.5.45" provider-name="Team NaN">
         <requires>
                 <import addon="xbmc.python" version="2.1.0"/>
                 <import addon="script.module.beautifulsoup" version="2.0.0"/>
                 <import addon="script.module.futures" version="2.0.0"/>
                 <import addon="script.module.requests"/>
                 <import addon="script.module.six"/>
-                <!--<import addon="script.module.urlresolver" version="2.0.0" optional="true"/>-->
+                <import addon="script.module.resolveurl" version="2.0.0"/>
                 <!--<import addon="script.mrknow.urlresolver" version="2016.01.01" optional="true"/>-->
         </requires>
         <extension point="xbmc.python.module" library="lib"/>
@@ -679,6 +679,23 @@ Gallery Artwork by @konsumer420
 		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
         <forum>https://www.tvaddons.co/forums</forum>
         <website>https://www.tvaddons.co</website>
+	</extension>
+</addon>
+
+<addon id="script.module.resolveurl" name="ResolveURL     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="5.0.01" provider-name="jsergio">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="script.module.python.twitch" optional="true" />
+		<import addon="script.module.cryptopy" version="1.0.0" optional="true" />
+		<import addon="plugin.video.gdrive" optional="true" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
 	</extension>
 </addon>
 
