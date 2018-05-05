@@ -391,31 +391,69 @@ DeccanDelight and its developers do not host, create, or distribute any of the c
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2017.10.25"
+  version="2018.03.11"
   name="SportsDevil     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]"
   provider-name="SportsDevil">
   <requires>
-   <import addon="xbmc.python" version="2.1.0"/>
+   <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.dateutil" />
    <import addon="script.module.simplejson" />
    <import addon="script.module.six" />
    <import addon="script.module.requests" />
-   <import addon="script.module.livestreamer" />
-   <!-- <import addon="script.video.F4mProxy" /> -->
-   <!-- <import addon="plugin.video.f4mTester" /> -->
+   <import addon="script.module.streamlink.base" />
+   <import addon="plugin.video.f4mTester" />
   </requires>
   <extension 
     point="xbmc.python.pluginsource"
     library="default.py">
    <provides>video</provides>
   </extension>
-  <extension point="xbmc.service" library="service/proxy_service.py" start="startup" />
+  <extension point="xbmc.service" library="service/streamlink_proxy.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary>Play videos of different ad-financed sports streaming sites</summary>
-    <description>Play videos of different ad-financed sports streaming sites. SportsDevil does not provide any streams of its own; stream quality, content and copyright are responsibility of the ad-financed source web site. For updates check the readme.
-    </description>
+    <summary lang="en">SportsDevil addon</summary>
+    <description lang="en">Play videos of different ad-financed sports streaming sites.</description>
+	<disclaimer lang="en">SportsDevil does not provide any streams of its own; stream quality, content and copyright are responsibility of the ad-financed source web site. For updates - check the readme.</disclaimer>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.module.streamlink.base" name="Streamlink Library     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="2018.02.24" provider-name="Twilight0">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.requests" version="2.12.4"/>
+    <import addon="script.module.futures" version="2.2.0"/>
+    <import addon="script.module.streamlink.crypto" version="1.4.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="resources/lib/"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>Streamlink Library</summary>
+    <description>Streamlink Library for Kodi</description>
+    <platform>all</platform>
+    <license>Simplified BSD</license>
+    <source>https://github.com/streamlink/streamlink</source>
+    <language>en</language>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+    <news>
++ 2018.02.24
+- Fixed segmented module (ignore-names commit)
+- Bumped to commit #3b7dae75d924caa94d5d2e023b85959f0ac8ef39
+    </news>
+  </extension>
+</addon>
+
+<addon id="script.module.streamlink.crypto" name="streamlink.crypto     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="1.4.0" provider-name="Streamlink.crypto">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Pure Python implementation of the cryptographic libraries required by Streamlink</summary>
+    <source>https://github.com/Twilight0/script.module.streamlink.crypto</source>
+    <platform>all</platform>
+    <license>MIT</license>
   </extension>
 </addon>
 
