@@ -262,7 +262,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.desiscrapers" name="Desi Scrapers     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" version="2018.01.26" provider-name="AftershockPY">
+<addon id="script.module.desiscrapers" name="Desi Scrapers     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]" version="2018.01.27" provider-name="AftershockPY">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.beautifulsoup" version="2.0.0"/>
