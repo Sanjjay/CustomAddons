@@ -288,7 +288,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.bbciplayer" name="BBC iPlayer     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.3.0" provider-name="Mikey1234">
+<addon id="plugin.video.bbciplayer" name="BBC iPlayer     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="0.6.0" provider-name="LittleWiz">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -302,13 +302,14 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.itv" name="ITV     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="2.4.6" provider-name="LittleWiz">
+<addon id="plugin.video.itv" name="ITV Player     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="2.5.0" provider-name="LittleWiz">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
-  </extension>
+  </extension>	
+  <extension library="service.py" point="xbmc.service"  start="startup"/>	
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <summary>Plugin for ITV Live Tv Player</summary>
