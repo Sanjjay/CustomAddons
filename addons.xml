@@ -483,6 +483,45 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
   </extension>
 </addon>
 
+<addon id="plugin.video.ertugrul" name="Ertugrul     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="1.0.0" provider-name="Ertugrul">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="2.0.0"/>
+    <import addon="service.subtitles.ertugrul" version="1.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Ertugrul</summary>
+    <description lang="en">Ertugrul</description>
+    <forum></forum>
+    <website></website>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="service.subtitles.ertugrul"
+       name="Ertugrul     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]"
+       version="1.0.0"
+       provider-name="ertugrul">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.ertugrul" version="1.0.0"/>
+  </requires>
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Ertugrul Subtitles</summary>
+    <description lang="en">Use subtitles for Ertugrul</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <source></source>
+  </extension>
+</addon>
+
 <addon id="plugin.video.freeview" name="Freeview     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="2.0.1" provider-name="RayW1986">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
