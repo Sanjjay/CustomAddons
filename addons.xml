@@ -508,7 +508,6 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
        provider-name="ertugrul">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="plugin.video.ertugrul" version="1.0.0"/>
   </requires>
   <extension point="xbmc.subtitle.module"
              library="service.py" />
