@@ -566,7 +566,7 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
 
 <addon id="program.plexus"
        name="Plexus     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]"
-       version="0.1.4"
+       version="0.1.4a"
        provider-name="enen92, TV ADDONS">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -574,7 +574,7 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
-        <provides>executable</provides>
+        <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>SopCast and AceStream for Kodi</summary>
