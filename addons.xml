@@ -318,7 +318,7 @@
 </addon>
 
 <addon id="plugin.video.deccandelight"
-version="1.6.0"
+version="1.6.1"
 name="Deccan Delight     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
 provider-name="gujal">
 <requires>
@@ -327,7 +327,6 @@ provider-name="gujal">
   <import addon="script.module.beautifulsoup" version="2.0.0"/>
   <import addon="script.module.resolveurl" version="2.0.0"/>
   <import addon="script.common.plugin.cache" version="2.0.0"/>
-  <import addon="script.module.youtube.dl" version="2.0.0"/>
   <import addon="plugin.video.f4mTester" version="2.0.0"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
@@ -353,7 +352,7 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
 
 <addon id="plugin.video.einthusan"
        name="Einthusan     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="1.4.2"
+       version="1.4.3"
        provider-name="humla,ReasonsRepo">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -366,14 +365,16 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <summary>Watch Hindi, Tamil  movies</summary>
-        <description>This XBMC plugin allows to watch Hindi and Tamil movies from Einthusan.com. Please support them.
-        Fixed everything, the addon should be working fine now [COLOR blue]Reasons[/COLOR] [COLOR yellow]Repository[/COLOR].        
-        Credits to Humla for creating the addon, but he probably stopped supporting it, so I, [COLOR blue]Reasons[/COLOR] [COLOR yellow]Repository[/COLOR] am taking over this project.
-        I don't watch bollywood movies so I don't use this addon, if it breaks then please let me know.
+        <description>
+        This XBMC plugin allows to watch Hindi and Tamil movies from Einthusan.com. Please support them.
+        Fixed everything, the addon should be working fine now [COLOR blue]Reasons[/COLOR] [COLOR yellow]Repository[/COLOR].
+        Credits to Humla for creating the addon, but he probably stopped supporting it, so I, [COLOR blue]Reasons[/COLOR] [COLOR 		yellow]Repository[/COLOR] am taking over this project.
+        I don't watch bollywood movies so dont use this addon, so if it breaks then please let me know.
         My contact info is available on my website or my github Repository.
         Credits to suriya222 for the thumbnails.</description>
     </extension>
 </addon>
+
 
 <addon id="plugin.video.footballrepeat" name="Football Repeat     [COLOR red]CustomAddons[/COLOR] [COLOR dodgerblue]English[/COLOR]" version="1.1.5" provider-name="Origin">
   <requires>
@@ -721,40 +722,40 @@ Gallery Artwork by @konsumer420
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="5.0.21" provider-name="tvaddons.ag, Eldorado">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="plugin.video.youtube" optional="true" />
-		<import addon="script.module.python.twitch" optional="true" />
-		<import addon="script.module.cryptopy" version="1.0.0" optional="true" />
-		<import addon="plugin.video.gdrive" optional="true" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
-		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-		<forum>https://www.tvaddons.co/forums</forum>
+<addon id="script.module.urlresolver" name="URLResolver     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="5.0.22" provider-name="tvaddons.ag, Eldorado">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="plugin.video.youtube" optional="true" />
+        <import addon="script.module.python.twitch" optional="true" />
+        <import addon="script.module.cryptopy" version="1.0.0" optional="true" />
+        <import addon="plugin.video.gdrive" optional="true" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="lib/default.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+        <description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+        <forum>https://www.tvaddons.co/forums</forum>
         <website>https://www.tvaddons.co</website>
-	</extension>
+    </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="5.0.10" provider-name="jsergio">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="plugin.video.youtube" optional="true" />
-		<import addon="script.module.python.twitch" optional="true" />
-		<import addon="script.module.cryptopy" version="1.0.0" optional="true" />
-		<import addon="plugin.video.gdrive" optional="true" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
-		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-	</extension>
+<addon id="script.module.resolveurl" name="ResolveURL     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="5.0.11" provider-name="jsergio">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="plugin.video.youtube" optional="true" />
+        <import addon="script.module.python.twitch" optional="true" />
+        <import addon="script.module.cryptopy" version="1.0.0" optional="true" />
+        <import addon="plugin.video.gdrive" optional="true" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="lib/default.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+        <description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+    </extension>
 </addon>
 
 <addon id="service.playitx" name="PlayIt     [COLOR red]CustomAddons[/COLOR] [COLOR orangered]MultiLang[/COLOR]" version="0.6.3"
