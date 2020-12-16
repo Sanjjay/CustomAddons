@@ -318,7 +318,7 @@
 </addon>
 
 <addon id="plugin.video.deccandelight"
-version="1.6.1"
+version="1.9.10"
 name="Deccan Delight     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
 provider-name="gujal">
 <requires>
@@ -340,6 +340,7 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
 	<platform>all</platform>
 	<website>https://github.com/Gujal00/GujalKodiWork</website>
 	<disclaimer>DeccanDelight and its developers are not in any way affiliated with Kodi or any of the sites and providers used in the addon.</disclaimer>
+	<news></news>
 	<assets>
 		<icon>icon.png</icon>
 		<fanart>fanart.jpg</fanart>
