@@ -353,7 +353,7 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
 
 <addon id="plugin.video.einthusan"
        name="Einthusan     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
-       version="1.4.3a"
+       version="1.4.3b"
        provider-name="humla,ReasonsRepo">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
