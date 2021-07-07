@@ -318,19 +318,19 @@
 </addon>
 
 <addon id="plugin.video.deccandelight"
-version="1.9.10"
+version="2.0.9"
 name="Deccan Delight     [COLOR red]CustomAddons[/COLOR] [COLOR yellowgreen]Indian[/COLOR]"
 provider-name="gujal">
 <requires>
-  <import addon="xbmc.python" version="2.1.0"/>
-  <import addon="script.module.requests" version="2.0.0"/>
-  <import addon="script.module.beautifulsoup" version="2.0.0"/>
-  <import addon="script.module.resolveurl" version="2.0.0"/>
-  <import addon="script.common.plugin.cache" version="2.0.0"/>
-  <import addon="plugin.video.f4mTester" version="2.0.0"/>
+	<import addon="script.module.six" />
+	<import addon="script.module.kodi-six" />
+	<import addon="script.module.requests" version="2.0.0"/>
+	<import addon="script.module.beautifulsoup4" version="2.0.0"/>
+	<import addon="script.module.resolveurl" version="2.0.0"/>
+	<import addon="script.common.plugin.cache" version="2.0.0"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>video</provides>
+  	<provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
 	<summary>Entertainment from the Deccan region of India</summary>
@@ -340,7 +340,6 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
 	<platform>all</platform>
 	<website>https://github.com/Gujal00/GujalKodiWork</website>
 	<disclaimer>DeccanDelight and its developers are not in any way affiliated with Kodi or any of the sites and providers used in the addon.</disclaimer>
-	<news></news>
 	<assets>
 		<icon>icon.png</icon>
 		<fanart>fanart.jpg</fanart>
